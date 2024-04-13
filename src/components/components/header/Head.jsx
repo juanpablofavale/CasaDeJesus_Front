@@ -5,9 +5,7 @@ import './Head.css'
 const Head = () => {
   return (
     <header>
-      <div>
-        <img src="../../../assets/img/Logo.png" alt="logo" />
-      </div>
+      <img className='logo' src="https://raw.githubusercontent.com/juanpablofavale/CasaDeJesus_Front/main/src/assets/img/Logo.png" alt="logo" />
       <nav>
         {
           NAVIGATOR.length && NAVIGATOR.map((lnk) => <NavLnk key={lnk.name} lnk={lnk} />)

@@ -3,14 +3,23 @@ header{
     flex-direction: row;
     justify-content: space-between;
     padding: 50px;
-    background-color: rgb(57, 57, 57);
+    background-color: #474746;
     min-height: 20dvh;
 }
 
+header .logo{
+    position: absolute;
+    border: 1px solid;
+}
+
 header nav{
+    margin-left: auto;
+    width: 60%;
     display: flex;
-    gap: 5px;
+    gap: 15px;
     flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 
 header a{
