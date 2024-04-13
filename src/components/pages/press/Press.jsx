@@ -2,7 +2,7 @@ import './Press.css'
 
 const Press = () => {
   return (
-    <div>Press</div>
+    <h1>Prensa</h1>
   )
 }
 

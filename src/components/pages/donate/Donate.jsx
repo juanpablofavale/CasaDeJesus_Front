@@ -2,7 +2,7 @@ import './Donate.css'
 
 const Donate = () => {
   return (
-    <div>Donate</div>
+    <h1>Como Donar</h1>
   )
 }
 

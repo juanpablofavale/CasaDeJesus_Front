@@ -2,7 +2,7 @@ import './Events.css'
 
 const Events = () => {
   return (
-    <div>Events</div>
+    <h1>Eventos</h1>
   )
 }
 

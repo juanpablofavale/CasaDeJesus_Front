@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: rgb(57, 57, 57);
+    min-height: 20dvh;
+}
+
+header nav{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+header a{
+    padding: 2px;
+    border-radius: 3px;
+    border: 1px solid;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}

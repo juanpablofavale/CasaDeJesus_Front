@@ -1,0 +1,8 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: rgb(57, 57, 57);
+    min-height: 20dvh;
+}

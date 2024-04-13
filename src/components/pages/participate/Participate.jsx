@@ -2,7 +2,7 @@ import './Participate.css'
 
 const Participate = () => {
   return (
-    <div>Participate</div>
+    <h1>Sé Parte</h1>
   )
 }
 

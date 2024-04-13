@@ -2,7 +2,7 @@ import './Works.css'
 
 const Works = () => {
   return (
-    <div>Works</div>
+    <h1>Obras</h1>
   )
 }
 

@@ -2,7 +2,7 @@ import './Sponsor.css'
 
 const Sponsor = () => {
   return (
-    <div>Sponsor</div>
+    <h1>Nos Acompañan</h1>
   )
 }
 
