@@ -9,18 +9,25 @@ header{
 header .logo{
     margin: 0 auto;
     filter: drop-shadow(0px 0px 10px #80808088);
-    width: 100px;
+    width: 10%;
     object-fit: contain;
 }
 
-header nav{
-    margin-left: auto;
+header .navs{
     width: 80%;
     display: flex;
-    gap: 15px;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding-top: 30px;
+}
+
+header nav{
+    display: flex;
+    gap: 10px;
     flex-wrap: wrap;
-    justify-content: center;
     align-content: center;
+    justify-content: center;
 }
 
 header a{

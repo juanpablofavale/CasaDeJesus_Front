@@ -2,15 +2,22 @@ import NAVIGATOR from '../../../data/Navigator.jsx'
 import NavLnk from '../navlnk/NavLnk.jsx'
 import './Head.css'
 
-const Head = () => {
+const Head = ({subMenu}) => {
   return (
     <header>
       <img className='logo' src="/img/Logo - copia.png" alt="logo" />
-      <nav>
-        {
-          NAVIGATOR.length && NAVIGATOR.map((lnk) => <NavLnk key={lnk.name} lnk={lnk} />)
-        }
-      </nav>
+      <div className='navs'>
+        <nav className='nav'>
+          {
+            NAVIGATOR.main.length && NAVIGATOR.main.map((lnk) => <NavLnk key={lnk.name} lnk={lnk} />)
+          }
+        </nav>
+        <nav className='sub'>
+          {
+            subMenu.length != 0 && subMenu.map((lnk) => <NavLnk key={lnk.name} lnk={lnk} />)
+          }
+        </nav>
+      </div>
     </header>
   )
 }
