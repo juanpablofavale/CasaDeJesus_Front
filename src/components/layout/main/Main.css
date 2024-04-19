@@ -8,5 +8,11 @@ main h1{
 }
 
 main section{
-    min-height: 80dvh;
+    min-height: 75dvh;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
 }
