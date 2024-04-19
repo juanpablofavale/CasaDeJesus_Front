@@ -4,6 +4,7 @@ header{
     justify-content: space-between;
     background-color: #474746;
     min-height: 20dvh;
+    max-height: 185px;
 }
 
 header .logo{
