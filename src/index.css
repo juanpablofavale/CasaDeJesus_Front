@@ -10,8 +10,16 @@ header .nav-logo{
   align-items: center;
   gap: 15px;
 }
+header .navbar-toggler{
+  width: 40px;
+  display: flex;
+}
+header h1{
+  font-size: 18px;
+  margin: 0;
+}
 header .logo{
-  width: 50px;
+  width: 40px;
 }
 header .navbar-collapse{
   padding: 0 20px 10px 20px;
@@ -32,9 +40,6 @@ main p{
 main iframe{
   width: 100%;
   margin: 0 auto;
+  padding: 0 25px;
   border-radius: 11px;
-}
-main section div{
-  width: 80%;
-  margin: 0 auto;
 }
