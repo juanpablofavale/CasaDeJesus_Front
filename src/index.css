@@ -9,6 +9,9 @@
 header{
   box-shadow: 0 0 15px grey;
 }
+header .me-auto{
+  text-transform: uppercase;
+}
 header .nav-logo{
   flex-grow: 1;
   display: flex;
@@ -23,6 +26,7 @@ header .navbar-toggler{
 header h1{
   font-size: 1.45rem;
   margin: 0;
+  font-variant: small-caps;
 }
 header .logo{
   width: 40px;
