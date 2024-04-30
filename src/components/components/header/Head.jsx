@@ -1,23 +1,29 @@
 import NAVIGATOR from '../../../data/Navigator.jsx'
-import NavLnk from '../navlnk/NavLnk.jsx'
 import './Head.css'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDrop from '../navDrop/NavDrop.jsx';
 
 const Head = ({subMenu}) => {
   return (
     <header>
-      <img className='logo' src="/img/Logo - copia.png" alt="logo" />
-      <div className='navs'>
-        <nav className='nav'>
-          {
-            NAVIGATOR.main.length && NAVIGATOR.main.map((lnk) => <NavLnk key={lnk.name} lnk={lnk} />)
-          }
-        </nav>
-        <nav className='sub'>
-          {
-            subMenu.length != 0 && subMenu.map((lnk) => <NavLnk key={lnk.name} lnk={lnk} />)
-          }
-        </nav>
-      </div>
+      <Navbar expand="lg" className="bg-body-tertiary">
+        <Container>
+          <Navbar.Brand className='nav-logo' href="#home">
+            <img className='logo' src="/img/Icono.png" alt="logo" />
+            <h1>La Casa de Jesus</h1>
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              {
+                NAVIGATOR.main.map(item => <NavDrop key={item.name} item={item}/>)
+              }
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
     </header>
   )
 }
