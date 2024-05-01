@@ -16,7 +16,7 @@ const Head = ({subMenu}) => {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+            <Nav className="ms-auto">
               {
                 NAVIGATOR.main.map(item => <NavDrop key={item.name} item={item}/>)
               }
