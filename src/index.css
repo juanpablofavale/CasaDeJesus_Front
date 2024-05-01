@@ -99,4 +99,8 @@ main iframe{
     width: 80%;
     max-width: 1200px;
   }
+  main section div{
+    max-width: 600px;
+    margin: 0 auto;
+  }
 }
