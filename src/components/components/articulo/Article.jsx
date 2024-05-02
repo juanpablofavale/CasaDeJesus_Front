@@ -10,7 +10,7 @@ const Article = ({menu, sub}) => {
   },[])
 
   return (
-    <>
+    <section>
       {
         console.log(data)
       }
@@ -20,7 +20,7 @@ const Article = ({menu, sub}) => {
       {
         data && data[menu][sub].parrafos.map(p => <p>{p}</p>)
       }
-    </>
+    </section>
   )
 }
 
