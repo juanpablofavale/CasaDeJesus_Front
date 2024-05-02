@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom'
 import './NavLnk.css'
 
-const NavLnk = ({lnk}) => {
+const NavLnk = ({lnk, name}) => {
   return (
     <>
-      <Link to={lnk.link}>{lnk.name}</Link>
+      <Link to={lnk}>{name}</Link>
     </>
   )
 }

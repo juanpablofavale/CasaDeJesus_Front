@@ -10,7 +10,7 @@ const Head = ({subMenu}) => {
     <header>
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand className='nav-logo' href="#home">
+          <Navbar.Brand className='nav-logo' href="/">
             <img className='logo' src="/img/Icono.png" alt="logo" />
             <h1>La Casa de Jesus</h1>
           </Navbar.Brand>

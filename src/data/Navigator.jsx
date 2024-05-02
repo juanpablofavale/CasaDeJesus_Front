@@ -33,23 +33,22 @@ const NAVIGATOR = {
         },
         {
             name:"Obras",
-            link:"/works",
             sub:[
                 {
                     name:"Casa Nazaret",
-                    link:"/"
+                    link:"/works/nazaret"
                 },
                 {
                     name:"Casa Posadas",
-                    link:"/works"
+                    link:"/works/posadas"
                 },
                 {
                     name:"Hogar San Francisco",
-                    link:"/projects"
+                    link:"/works/francisco"
                 },
                 {
                     name:"Hospice Santa Teresita",
-                    link:"/projects"
+                    link:"/works/teresita"
                 }
             ],
         },
