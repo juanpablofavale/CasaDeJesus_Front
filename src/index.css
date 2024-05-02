@@ -45,6 +45,7 @@ header .container{
   max-width: 1100px;
 }
 main{
+  min-height: 75dvh;
   padding: 30px 0;
 }
 main h1{
@@ -152,14 +153,17 @@ footer .logos{
   main p{
     font-size: 1rem;
   }
+  main{
+    min-height: 63.2dvh;
+  }
 }
 
 @media screen and (min-width: 700px){
   main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    min-height: 64dvh;
   }
   section{
     width: 80%;
@@ -201,5 +205,8 @@ footer .logos{
   }
   footer .nav-foot{
     justify-content: space-evenly;
+  }
+  main{
+    min-height: 75dvh;
   }
 }
