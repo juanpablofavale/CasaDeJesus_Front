@@ -71,8 +71,21 @@ main p:last-of-type{
 }
 main a{
   display: inline-block;
-  padding: 0 25px;
-  padding-bottom: 2rem !important;
+  margin: 0 25px;
+  margin: 1rem 0 3rem 25px !important;
+  background-color: #ee8503;
+  background-color: #F19733;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 55px;
+  box-shadow: 0 0 15px inset #734f16;
+  box-shadow: 0 0 15px inset #EE7D00;
+  font-weight: bold;
+  transition: background-color .1s;
+}
+main a:hover{
+  background-color: #ffa434;
 }
 main iframe{
   width: 100%;

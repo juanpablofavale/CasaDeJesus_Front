@@ -1,6 +1,8 @@
 //import { useEffect, useState } from 'react'
 import './Home.css'
 import NavLnk from '../../components/navlnk/NavLnk'
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 //import { server } from '../../../utils/axios'
 //import Article from '../../components/articulo/Article'
 
@@ -20,7 +22,7 @@ const Home = () => {
   },[])*/
   return (
     <>
-      <h1>Inicio</h1>
+      <h1>La Casa de Jesus</h1>
       <section>
         <h2>Carrousel/Slider de fotos</h2>
       </section>
