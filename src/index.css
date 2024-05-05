@@ -58,7 +58,7 @@ main h1{
 }
 main h2{
   font-size: 1.25rem;
-  padding: 25px 10px 0px 10px;
+  padding: 0px 10px 0px 10px;
   font-weight: bold;
 }
 main h3{
@@ -83,7 +83,6 @@ main p:last-of-type{
 main a{
   display: inline-block;
   margin: 0 35px;
-  margin: 1rem 0 3rem 35px !important;
   background-color: #ee8503;
   background-color: #F19733;
   color: white;
@@ -103,6 +102,7 @@ main iframe{
   margin: 0 auto;
   padding: 0 25px;
   border-radius: 11px;
+  aspect-ratio: 4/2;
 }
 main .cont-numeros{
   display: flex;
@@ -120,6 +120,21 @@ main .cont-numeros h4{
 }
 main .cont-numeros img{
   width: 60px;
+}
+main article{
+  border-bottom: 3px dashed orange;
+}
+main article:last-child{
+  border: none;
+}
+main article, main section{
+  padding: 30px 0;
+}
+main section{
+  border-bottom: 3px dotted orange;
+}
+main section.alone{
+  border: none;
 }
 footer{
   box-shadow: 0 -5px 15px grey;

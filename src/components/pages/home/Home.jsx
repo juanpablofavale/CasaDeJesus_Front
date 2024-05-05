@@ -97,7 +97,7 @@ const Home = () => {
       <section>
         <h2>Destacado</h2>
         <div>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/hfu5S4v_WYQ?si=yLkeCItfscwhgbij" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/hfu5S4v_WYQ?si=yLkeCItfscwhgbij" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </section>
     </>

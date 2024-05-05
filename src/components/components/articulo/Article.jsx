@@ -10,7 +10,7 @@ const Article = ({menu, sub}) => {
   },[])
 
   return (
-    <section>
+    <section className='alone'>
       {
         console.log(data)
       }
