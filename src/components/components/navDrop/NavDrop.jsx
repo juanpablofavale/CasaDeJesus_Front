@@ -1,5 +1,4 @@
 import { Nav, NavDropdown } from 'react-bootstrap'
-import NavLnk from '../navlnk/NavLnk'
 
 export default function NavDrop({item}) {
     return (

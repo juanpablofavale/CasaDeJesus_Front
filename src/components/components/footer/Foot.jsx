@@ -18,10 +18,9 @@ const Foot = () => {
           <a href="">Contacto</a>
         </nav>
         <div className='redes'>
-          <a href=""><img className='red' src="/img/facebook-icon.png" alt="facebook" /></a>
-          <a href=""><img className='red' src="/img/instagram-icon.png" alt="instagram" /></a>
-          <a href=""><img className='red' src="/img/twitter-icon.png" alt="twitter" /></a>
-          <a href=""><img className='red' src="/img/tiktok-icon.png" alt="tiktok" /></a>
+          <a href="https://www.facebook.com/fundacioncasadejesus" target='_blank'><img className='red' src="/img/facebook-icon.png" alt="facebook" /></a>
+          <a href="https://www.instagram.com/fcasadejesus/?hl=es-la" target='_blank'><img className='red' src="/img/instagram-icon.png" alt="instagram" /></a>
+          <a href="https://twitter.com/fcasadejesus" target='_blank'><img className='red' src="/img/twitter-icon.png" alt="twitter" /></a>
         </div>
       </div>
     </footer>
