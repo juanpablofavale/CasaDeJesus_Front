@@ -15,9 +15,9 @@ const Main = () => {
   return (
     <>
       <Head/>
-      <main>
-        <Outlet />
-      </main>
+        <main>
+          <Outlet />
+        </main>
       <Foot/>
     </>
   )
