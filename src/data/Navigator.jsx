@@ -3,7 +3,6 @@ const NAVIGATOR = {
         {
             name:"Inicio",
             link:"/",
-            sub:[]
         },
         {
             name:"La Fundacion",

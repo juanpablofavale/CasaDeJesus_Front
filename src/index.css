@@ -208,8 +208,14 @@ footer .logos{
     max-width: 1000px;
   }
   main section div{
-    max-width: 600px;
+    /*max-width: 600px;*/
     margin: 0 auto;
+  }
+  main .cont-numeros{
+    flex-wrap: nowrap;
+  }
+  main .cont-numeros div{
+    max-width: 40dvw;
   }
 }
 
