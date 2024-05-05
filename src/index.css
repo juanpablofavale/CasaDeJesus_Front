@@ -44,6 +44,9 @@ header .container{
   width: 100%;
   max-width: 1100px;
 }
+header .dropdown-toggle::after{
+  content: initial;
+}
 main{
   min-height: 75dvh;
   padding: 30px 0;
