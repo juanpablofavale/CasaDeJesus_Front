@@ -44,5 +44,164 @@
             ],
             "imagenes":[]
         }
+    },
+    "fundacion":{
+        "fundacion":{
+            "titulo":"La Casa de Jesus",
+            "contenido":[
+                {
+                    "subtitulo":"Que Hacemos",
+                    "parrafos":[
+                        "Contenido?"
+                    ]
+                },
+                {
+                    "subtitulo":"Nuestra Misión",
+                    "parrafos":[
+                        "Transformar la realidad de quienes atraviesan una situación de vulnerabilidad social, saliendo a su encuentro con acciones concretas que tengan por finalidad la búsqueda del bien común y la justicia social."
+                    ]
+                },
+                {
+                    "subtitulo":"Nuestra Visión",
+                    "parrafos":[
+                        "Formar una sociedad más justa y más fraterna, basada en la experiencia y vivencia de los valores del Evangelio."
+                    ]
+                },
+                {
+                    "subtitulo":"Nuestros Valores",
+                    "parrafos":[
+                        "Nos inspiran valores como el amor, la solidaridad, la compasión, el respeto, el servicio, la humildad, la alegría y el compromiso de contribuir a una sociedad mejor."
+                    ]
+                }
+            ]
+        },
+        "historia":{
+            "titulo":"Nuestra Historia",
+            "parrafos":[
+                "La Fundación Casa de Jesús inició sus actividades el 8 de mayo de 2014, en el día de Nuestra Señora de Luján, como respuesta a la inquietud de un grupo de personas que, acompañadas por un sacerdote como asesor espiritual, decidieron involucrarse para aliviar el dolor y acompañar la vida de quienes quieren progresar y no tienen los medios para hacerlo.",
+                "Así fue como se estableció, en el partido de Morón, como una organización sin fines de lucro conformada por un Consejo de Administración, socios benefactores, asociados y voluntarios que, junto con la guía espiritual de un sacerdote, ofrecen generosamente su tiempo y esfuerzos para intentar conectar la vida de los que pueden un poco más, con aquellos que no pueden nada.",
+                "Con el propósito de contribuir a formar una sociedad mejor, más justa y más fraterna, ese mismo año se inaugura el Hogar San Francisco, en Morón.",
+                "Luego, en el año 2016, nace Casa Posadas, con la misión de brindar hospitalidad con caridad cristiana, acompañando a cada persona en el dolor, a través del servicio, el respeto y la contención, en el predio del Hospital Nacional Posadas, en El Palomar.",
+                "El 19 de marzo del año 2019, reforzando el compromiso de estar cerca de quienes más necesitan, abre sus puertas Casa Nazaret, en Haedo. Este espacio de promoción de la vida familiar y de especialmente aquellos a los que nadie cuida o que se sienten desamparados."
+            ]
+        },
+        "inspiracion":{
+            "titulo":"Nuestra Inspiración",
+            "parrafos":[
+                "Con la guía espiritual del padre Mariano del Río, buscamos replicar el corazón de Jesús, un corazón generoso y siempre dispuesto a alojar a todos, resignificándolo en espacios o en obras como un hogar de tránsito, un hogar para personas enfermas, una casa que reciba a todos y responda a las diferentes necesidades.",
+                "Así fue como se estableció, en el partido de Morón, como una organización sin fines de lucro conformada por un Consejo de Administración, socios benefactores, asociados y voluntarios que, junto con la guía espiritual de un sacerdote, ofrecen generosamente su tiempo y esfuerzos para intentar conectar la vida de los que pueden un poco más, con aquellos que no pueden nada.",
+                "Con el propósito de contribuir a formar una sociedad mejor, más justa y más fraterna, ese mismo año se inaugura el Hogar San Francisco, en Morón.",
+                "Luego, en el año 2016, nace Casa Posadas, con la misión de brindar hospitalidad con caridad cristiana, acompañando a cada persona en el dolor, a través del servicio, el respeto y la contención, en el predio del Hospital Nacional Posadas, en El Palomar.",
+                "El 19 de marzo del año 2019, reforzando el compromiso de estar cerca de quienes más necesitan, abre sus puertas Casa Nazaret, en Haedo. Este espacio de promoción de la vida familiar y de especialmente aquellos a los que nadie cuida o que se sienten desamparados."
+            ]
+        },
+        "administracion":{
+            "titulo":"Consejo de Administración",
+            "parrafos":[
+                "La FCJ está formada por un Consejo de Administración que, junto con la guía espiritual de un sacerdote, ofrecen generosamente su tiempo y esfuerzos para intentar conectar la vida de los que pueden un poco más, con aquellos que no pueden nada.",
+                "Quienes somos parte de la FCJ, luego de experimentar un encuentro profundo con Jesús, no podemos ser indiferentes al dolor de nuestros hermanos y hemos decidido, a través del trabajo concreto, vivir y celebrar con hechos su palabra; manifestamos nuestra fe en obras."
+            ]
+        },
+        "compromiso":{
+            "titulo":"Compromiso ODS",
+            "parrafos":[
+                "Los Objetivos de Desarrollo Sostenible (ODS) han sido diseñados por la Organización de las Naciones Unidas (ONU).",
+                "La Fundación Casa de Jesús asume su compromiso con los siguientes ODS con el fin de sumarse a su objetivo principal, como también promoverlos siendo puente para que otras organizaciones puedan también sumarse, como por ejemplo a través de nuestros programas de Voluntariado Corporativo."
+            ]
+        }
+    },
+    "proyectos":{
+        "retiros":{
+            "titulo":"Retiros Universitarios",
+            "parrafos":[
+                "Los retiros se realizan desde el año 2004 y surgen como respuesta a la necesidad concreta de generar espacios para jóvenes y adultos, en el que puedan experimentar un verdadero encuentro con Jesús, principalmente a partir de los 21 años, etapa que abarca decisiones muy importantes en la vida como la vocación, el noviazgo o el lugar que quiero ocupar en el mundo, entre otras.",
+                "Es un espacio muy enriquecedor, en el que muchísimas personas viven una experiencia única, de verdadero encuentro con Jesús."
+            ]
+        },
+        "formacion":{
+            "titulo":"Formación",
+            "parrafos":[
+                "Contenido?"
+            ]
+        },
+        "educacion":{
+            "titulo":"Educación",
+            "parrafos":[
+                "Contenido"
+            ]
+        }
+    },
+    "eventos":{
+        "llamando":{
+            "titulo":"Llamando estaba la Casa",
+            "parrafos":[
+                "Contenido?"
+            ]
+        },
+        "carrera":{
+            "titulo":"Carrera +FCJ",
+            "parrafos":[
+                "Contenido?"
+            ]
+        },
+        "cena":{
+            "titulo":"Cena Anual",
+            "parrafos":[
+                "Contenido?"
+            ]
+        },
+        "eventos":{
+            "titulo":"Otros Eventos",
+            "parrafos":[
+                "Contenido?"
+            ]
+        }
+    },
+    "parte":{
+        "donar":{
+            "titulo":"Como donar",
+            "parrafos":[
+                "Contenido?"
+            ]
+        },
+        "socios":{
+            "titulo":"Socios",
+            "parrafos":[
+                "Contenido?"
+            ]
+        },
+        "voluntariado":{
+            "titulo":"Voluntariado corporativo",
+            "parrafos":[
+                "Dentro de las acciones de responsabilidad social empresarial (RSE), las empresas y sus empleados se unen y comprometen con el objetivo de participar de manera activa, voluntaria y solidaria, en las necesidades que los rodean dentro de su comunidad.",
+                "El apoyo a tareas concretas de gestión, el desarrollo de proyectos y programas, y la participación en distintas campañas, favorecerá a un impacto directo sobre la sociedad de la cual forman parte.",
+                "Estas iniciativas incrementan el sentido de pertenencia, creando lazos más fuertes entre todos los que forman parte de la empresa, lo cual tiene una incidencia directa en la mejora del clima laboral.",
+                "Al mismo tiempo, incrementa el autoestima de cada uno de los que participan, generando un sentimiento de satisfacción por poder ayudar a los demás, y mejorando habilidades como el liderazgo, la capacidad para trabajo en equipo, la empatía, la tolerancia, la innovación, entre otras."
+            ]
+        },
+        "voluntarios":{
+            "titulo":"Voluntarios individuales",
+            "parrafos":[
+                "Podes sumarte como voluntario en nuestras obras, todos tenemos dones para aportar."
+            ]
+        },
+        "padrinos":{
+            "titulo":"Padrinos",
+            "parrafos":[
+                "Contenido?"
+            ]
+        },
+        "profesionales":{
+            "titulo":"Profesionales solidarios",
+            "parrafos":[
+                "Podes donar a la Fundación Casa de Jesús los honorarios de algún trabajo en particular, que no hubieras querido cobrar a un amigo o un familiar, proponiéndole que, a cambio de tu generosidad, realice un aporte a alguna de las obras de la Fundación."
+            ]
+        },
+        "festejos":{
+            "titulo":"Festejos solidarios",
+            "parrafos":[
+                "Si se acerca tu cumpleaños o aniversario y estás pensando en encontrar la manera de poder ayudar a otros, podes proponer a tus invitados que en lugar de comprarte un regalo realicen un aporte a la Fundación Casa de Jesús. Contamos con material para el armado de un stand en el lugar del evento, con banners, folletería y alcancías."
+            ]
+        }
     }
 }

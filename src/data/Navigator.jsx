@@ -10,24 +10,24 @@ const NAVIGATOR = {
             link:"/about",
             sub:[
                 {
-                    name:"Que Hacemos",
-                    link:"/"
-                },
-                {
-                    name:"Mision Vision Valores",
-                    link:"/about"
+                    name:"La Fundación",
+                    link:"/about/fundacion"
                 },
                 {
                     name:"Nuestra Historia",
-                    link:"/works"
+                    link:"/about/historia"
+                },
+                {
+                    name:"Nuestra Inspiración",
+                    link:"/about/inspiracion"
                 },
                 {
                     name:"Consejo de Administración",
-                    link:"/projects"
+                    link:"/about/administracion"
                 },
                 {
                     name:"Compromiso ODS",
-                    link:"/projects"
+                    link:"/about/compromiso"
                 }
             ],
         },
@@ -58,15 +58,15 @@ const NAVIGATOR = {
             sub:[
                 {
                     name:"Retiros Universitarios",
-                    link:"/"
+                    link:"/projects/retiros"
                 },
                 {
                     name:"Formación",
-                    link:"/works"
+                    link:"/projects/formacion"
                 },
                 {
                     name:"Educación",
-                    link:"/projects"
+                    link:"/projects/educacion"
                 }
             ],
         },
@@ -76,19 +76,19 @@ const NAVIGATOR = {
             sub:[
                 {
                     name:"Llamando estaba la Casa",
-                    link:"/"
+                    link:"/events/llamando"
                 },
                 {
                     name:"Carrera +FCJ",
-                    link:"/works"
+                    link:"/events/carrera"
                 },
                 {
                     name:"Cena Anual",
-                    link:"/projects"
+                    link:"/events/cena"
                 },
                 {
                     name:"Otros Eventos",
-                    link:"/projects"
+                    link:"/events/eventos"
                 }
             ],
         },
@@ -98,31 +98,31 @@ const NAVIGATOR = {
             sub:[
                 {
                     name:"Como Donar",
-                    link:"/"
+                    link:"/participate/donar"
                 },
                 {
                     name:"Socios",
-                    link:"/about"
+                    link:"/participate/socios"
                 },
                 {
                     name:"Voluntariado Corporativo",
-                    link:"/works"
+                    link:"/participate/voluntariado"
                 },
                 {
                     name:"Voluntarios Individuales",
-                    link:"/projects"
+                    link:"/participate/voluntarios"
                 },
                 {
                     name:"Padrinos",
-                    link:"/events"
+                    link:"/participate/padrinos"
                 },
                 {
                     name:"Profesionales Solidarios",
-                    link:"/participate"
+                    link:"/participate/profesionales"
                 },
                 {
                     name:"Festejos Solidarios",
-                    link:"/events"
+                    link:"/participate/festejos"
                 },
             ]
         }
