@@ -68,6 +68,28 @@ const Home = () => {
       </section>
       <section>
         <h2>La fundación en Números</h2>
+        <div className='cont-numeros'>
+          <div>
+            <img src="/img/huesped-icon.png" alt="huesped"/>
+            <h4>414</h4>
+            <h5>Huespedes pasaron por casa San Francisco</h5>
+          </div>
+          <div>
+            <img src="/img/paciente-icon.png" alt="paciente" />
+            <h4>12075</h4>
+            <h5>Personas que utilizaron el servicio de casa Posadas</h5>
+          </div>
+          <div>
+            <img src="/img/vianda-icon.png" alt="vianda" />
+            <h4>1600</h4>
+            <h5>Viandas que se entragaron por semana en casa Nazaret</h5>
+          </div>
+          <div>
+            <img src="/img/voluntario-icon.png" alt="voluntario" />
+            <h4>300</h4>
+            <h5>Voluntarios en todas las obras</h5>
+          </div>
+        </div>
       </section>
       <section>
         <h2>Novedades destacadas</h2>

@@ -101,6 +101,23 @@ main iframe{
   padding: 0 25px;
   border-radius: 11px;
 }
+main .cont-numeros{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 20px 0 40px 0;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+main .cont-numeros div{
+  max-width: 40dvw;
+}
+main .cont-numeros h4{
+  font-size: 1.5rem;
+}
+main .cont-numeros img{
+  width: 60px;
+}
 footer{
   box-shadow: 0 -5px 15px grey;
   background-color: #474746;
