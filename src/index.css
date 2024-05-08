@@ -24,6 +24,7 @@ header .navbarLogo{
 header .ms-auto{
   text-transform: uppercase;
   font-weight: bold;
+  align-items: start;
 }
 header .navbar-toggler{
   width: 40px;
@@ -39,25 +40,19 @@ header .navbar-collapse{
 header .dropdown-toggle::after{
   content: initial;
 }
-header .ms-auto a:hover{
-  color: #EE7D00;
-}
 header .donar{
   color: white;
   background-color: #EE7D00;
   border-radius: 5px;
   font-weight: bold;
-  margin-left: 10px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.409);
+  padding: 10px;
+}
+header .ms-auto a:hover{
+  color: #EE7D00;
 }
 header .donar:hover{
-  color: black !important;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.409);
-  transform: translate(0, -5px);
-}
-header .donar:active{
-  transform: translate(0, 0);
-  box-shadow: none;
+  color: white !important;
 }
 main{
   min-height: 75dvh;
@@ -73,13 +68,15 @@ main section video{
   width: 100%;
   object-fit: fill;
   object-position: center;
-  width: 80%;
+  width: 95%;
+  border: 8px groove grey;
 }
 main .quienes{
   margin-top: 50px;
+  margin: 50px 40px 0 40px;
   background-color: #ffa434;
-  padding: 30px 50px !important;
-  transform: skew(-10deg, -1deg);
+  padding: 15px 10px !important;
+  transform: skew(-5deg, -1deg);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.519);
   border-radius: 5px;
 }
@@ -237,6 +234,10 @@ footer .logos{
   main{
     min-height: 63.2dvh;
   }
+  main .quienes{
+    margin: 50px 50px 0 50px;
+    padding: 20px 10px !important;
+  }
 }
 
 @media screen and (min-width: 700px){
@@ -259,6 +260,9 @@ footer .logos{
   }
   main .cont-numeros div{
     max-width: 40dvw;
+  }
+  main .quienes{
+    transform: skew(-10deg, -1deg);
   }
 }
 
@@ -292,5 +296,18 @@ footer .logos{
   }
   main{
     min-height: 75dvh;
+  }
+  header .donar:hover{
+    color: black !important;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.409);
+    transform: translate(0, -5px);
+  }
+  header .donar:active{
+    transform: translate(0, 0);
+    box-shadow: none;
+  }
+  header .donar{
+    padding: 8px;
+    margin-left: 10px;
   }
 }
