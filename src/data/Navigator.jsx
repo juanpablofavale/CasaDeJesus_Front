@@ -51,7 +51,7 @@ const NAVIGATOR = {
                 }
             ],
         },
-        {
+        /*{
             name:"Proyectos",
             link:"/projects",
             sub:[
@@ -68,7 +68,7 @@ const NAVIGATOR = {
                     link:"/projects/educacion"
                 }
             ],
-        },
+        },*/
         {
             name:"Eventos",
             link:"/events",

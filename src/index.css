@@ -9,15 +9,21 @@
 header{
   box-shadow: 0 0 15px grey;
 }
+header .logo{
+  width: 100%;
+  max-width: 250px;
+}
+header .navbarLogo{
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 2px 0;
+  width: 100%;
+  justify-content: space-between;
+}
 header .ms-auto{
   text-transform: uppercase;
-}
-header .nav-logo{
-  flex-grow: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
+  font-weight: bold;
 }
 header .navbar-toggler{
   width: 40px;
@@ -27,29 +33,45 @@ header .navbar-toggler{
 header .navbar-toggler:focus{
   box-shadow: 0 0 8px 0.15rem orange;
 }
-header h1{
-  font-size: 1.45rem;
-  margin: 0;
-  font-variant: small-caps;
-}
-header .logo{
-  width: 40px;
-  height: 40px;
-  object-fit: contain;
-}
 header .navbar-collapse{
   padding: 0 20px 0px 20px;
-}
-header .container{
-  width: 100%;
-  max-width: 1100px;
 }
 header .dropdown-toggle::after{
   content: initial;
 }
+header .ms-auto a:hover{
+  color: #EE7D00;
+}
+header .donar{
+  color: white;
+  background-color: #EE7D00;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: 10px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.409);
+}
+header .donar:hover{
+  color: black !important;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.409);
+  transform: translate(0, -5px);
+}
+header .donar:active{
+  transform: translate(0, 0);
+  box-shadow: none;
+}
 main{
   min-height: 75dvh;
   padding: 30px 0;
+}
+main section:first-child{
+  width: 100dvw;
+  height: 100dvh;
+  overflow: hidden;
+}
+main section video{
+  width: 100%;
+  object-fit: fill;
+  object-position: center;
 }
 main h1{
   font-size: 1.45rem;
@@ -121,17 +143,8 @@ main .cont-numeros h4{
 main .cont-numeros img{
   width: 60px;
 }
-main article{
-  border-bottom: 3px dashed orange;
-}
-main article:last-child{
-  border: none;
-}
 main article, main section{
   padding: 30px 0;
-}
-main section{
-  border-bottom: 3px dotted orange;
 }
 main section.alone{
   border: none;
@@ -193,10 +206,6 @@ footer .logos{
   header h1{
     font-size: 2rem;
   }
-  header .logo{
-    width: 50px;
-    height: 50px;
-  }
   main h1{
     font-size: 1.8rem;
   }
@@ -241,9 +250,6 @@ footer .logos{
   header .navbar-collapse{
     padding: 0;
     flex-basis: 0% !important;
-  }
-  header .nav-logo{
-    flex-grow: 0;
   }
   footer .content{
     padding: 10px 0;

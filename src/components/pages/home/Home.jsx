@@ -20,9 +20,9 @@ const Home = () => {
   },[])*/
   return (
     <>
-      <h1>La Casa de Jesus</h1>
       <section>
         <h2>Carrousel/Slider de fotos</h2>
+        <video loop muted autoplay src="./video/Intro.mp4" type="video/mp4"></video>
       </section>
       <section>
         <h2>Quienes somos</h2>
@@ -70,29 +70,26 @@ const Home = () => {
         <h2>La fundación en Números</h2>
         <div className='cont-numeros'>
           <div>
-            <img src="/img/huesped-icon.png" alt="huesped"/>
+            <img src="/img/huesped.png" alt="huesped"/>
             <h4>414</h4>
             <h5>Huespedes pasaron por casa San Francisco</h5>
           </div>
           <div>
-            <img src="/img/paciente-icon.png" alt="paciente" />
+            <img src="/img/paciente.png" alt="paciente" />
             <h4>12075</h4>
             <h5>Personas que utilizaron el servicio de casa Posadas</h5>
           </div>
           <div>
-            <img src="/img/vianda-icon.png" alt="vianda" />
+            <img src="/img/vianda.png" alt="vianda" />
             <h4>1600</h4>
             <h5>Viandas que se entragaron por semana en casa Nazaret</h5>
           </div>
           <div>
-            <img src="/img/voluntario-icon.png" alt="voluntario" />
+            <img src="/img/voluntario.png" alt="voluntario" />
             <h4>300</h4>
             <h5>Voluntarios en todas las obras</h5>
           </div>
         </div>
-      </section>
-      <section>
-        <h2>Novedades destacadas</h2>
       </section>
       <section>
         <h2>Destacado</h2>

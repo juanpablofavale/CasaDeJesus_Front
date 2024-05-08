@@ -12,9 +12,6 @@ const Article = ({menu, sub}) => {
   return (
     <section className='alone'>
       {
-        console.log(data)
-      }
-      {
         data && <h1>{data[menu][sub].titulo}</h1>
       }
       {

@@ -10,16 +10,18 @@ const Head = ({subMenu}) => {
     <header>
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand className='nav-logo' href="/">
-            <img className='logo' src="/img/Icono.png" alt="logo" />
-            <h1>La Casa de Jesus</h1>
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <div className='navbarLogo'>
+            <Navbar.Brand className='nav-logo' href="/">
+              <img className='logo' src="/img/LogoH.png" alt="logo" />
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          </div>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               {
                 NAVIGATOR.main.map(item => <NavDrop key={item.name} item={item}/>)
               }
+              <Nav.Link className='donar' href="">Donar</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
