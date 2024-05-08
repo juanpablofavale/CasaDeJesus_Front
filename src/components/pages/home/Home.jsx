@@ -21,8 +21,7 @@ const Home = () => {
   return (
     <>
       <section>
-        <h2>Carrousel/Slider de fotos</h2>
-        <video loop muted autoplay src="./video/Intro.mp4" type="video/mp4"></video>
+        <video autoPlay muted loop src="/video/Intro.mp4"></video>
       </section>
       <section>
         <h2>Quienes somos</h2>
