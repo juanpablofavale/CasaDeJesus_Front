@@ -17,17 +17,17 @@ const Home = () => {
           <div>
             <img src="/img/huesped.png" alt="huesped"/>
             <h4>414</h4>
-            <h5>Huespedes pasaron por el hogar San Francisco</h5>
+            <h5>Huéspedes pasaron por el hogar San Francisco</h5>
           </div>
           <div>
             <img src="/img/paciente.png" alt="paciente" />
             <h4>12075</h4>
-            <h5>Personas utilizaron el servicio del hogar Posadas</h5>
+            <h5>Personas utilizaron el servicio de casa Posadas</h5>
           </div>
           <div>
             <img src="/img/vianda.png" alt="vianda" />
             <h4>1600</h4>
-            <h5>Viandas entregadas por semana en el hogar Nazaret</h5>
+            <h5>Viandas entregadas por semana en casa Nazaret</h5>
           </div>
           <div>
             <img src="/img/voluntario.png" alt="voluntario" />

@@ -12,6 +12,7 @@ header{
 header .logo{
   width: 100%;
   max-width: 250px;
+  filter: drop-shadow(0px 0px 10px #ffa60082);
 }
 header .navbarLogo{
   display: flex;
@@ -70,6 +71,7 @@ main section video{
   object-position: center;
   width: 95%;
   border: 8px groove grey;
+  box-shadow: 10px 10px 15px #5c595379;
 }
 main .quienes{
   margin-top: 50px;
@@ -169,6 +171,8 @@ main .cont-numeros h4{
 }
 main .cont-numeros img{
   width: 60px;
+  height: 60px;
+  object-fit: contain;
 }
 main article, main section{
   padding: 0px 0 0 0;
