@@ -16,14 +16,14 @@ const NAVIGATOR = {
                     name:"Nuestra Historia",
                     link:"/about/historia"
                 },
-                {
+                /*{
                     name:"Nuestra Inspiración",
                     link:"/about/inspiracion"
                 },
                 {
                     name:"Consejo de Administración",
                     link:"/about/administracion"
-                },
+                },*/
                 {
                     name:"Compromiso ODS",
                     link:"/about/compromiso"
@@ -99,10 +99,10 @@ const NAVIGATOR = {
                     name:"Como Donar",
                     link:"/participate/donar"
                 },
-                {
+                /*{
                     name:"Socios",
                     link:"/participate/socios"
-                },
+                },*/
                 {
                     name:"Voluntariado Corporativo",
                     link:"/participate/voluntariado"

@@ -51,12 +51,6 @@
             "titulo":"La Casa de Jesus",
             "contenido":[
                 {
-                    "subtitulo":"Que Hacemos",
-                    "parrafos":[
-                        "Contenido?"
-                    ]
-                },
-                {
                     "subtitulo":"Nuestra Misión",
                     "parrafos":[
                         "Transformar la realidad de quienes atraviesan una situación de vulnerabilidad social, saliendo a su encuentro con acciones concretas que tengan por finalidad la búsqueda del bien común y la justicia social."
@@ -161,14 +155,19 @@
     "parte":{
         "donar":{
             "titulo":"Como donar",
-            "parrafos":[
-                "Contenido?"
-            ]
-        },
-        "socios":{
-            "titulo":"Socios",
-            "parrafos":[
-                "Contenido?"
+            "contenido":[
+                {
+                    "subtitulo":"Como donar",
+                    "parrafos":[
+                        "Contenido?"
+                    ]
+                },
+                {
+                    "subtitulo":"Socios",
+                    "parrafos":[
+                        "Contenido?"
+                    ]
+                }
             ]
         },
         "voluntariado":{

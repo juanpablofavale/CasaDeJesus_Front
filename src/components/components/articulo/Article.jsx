@@ -10,24 +10,26 @@ const Article = ({menu, sub}) => {
   },[])
 
   return (
-    <section className='alone'>
+    <section className={'alone alone-' + sub}>
       {
         data && <h1>{data[menu][sub].titulo}</h1>
       }
-      {
-        data && data[menu][sub].parrafos && data[menu][sub].parrafos.map(p => <p>{p}</p>)
-      }
-      {
-        //console.log(data, sub, menu)
-        data && data[menu][sub].contenido && data[menu][sub].contenido.map(sb => {
-          return <>
-            <h4>{sb.subtitulo}</h4>
-            {
-              sb.parrafos.map(p => <p key={p}>{p}</p>)
-            }
-          </>
-        })
-      }
+      <div className={sub}>
+        {
+          data && data[menu][sub].parrafos && data[menu][sub].parrafos.map(p => <p>{p}</p>)
+        }
+        {
+          //console.log(data, sub, menu)
+          data && data[menu][sub].contenido && data[menu][sub].contenido.map(sb => {
+            return <div className='cont' key={sb.titulo}>
+              <h4>{sb.subtitulo}</h4>
+              {
+                sb.parrafos.map(p => <p key={p}>{p}</p>)
+              }
+            </div>
+          })
+        }
+      </div>
     </section>
   )
 }

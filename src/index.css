@@ -89,11 +89,21 @@ main h1{
   font-weight: bold;
 }
 main h2{
+  margin-top: 50px;
   font-size: 1.25rem;
   padding: 0px 10px 0px 10px;
   font-weight: bold;
+  color: #EE7D00;
+  text-align: center;
+}
+main .quienes h2{
+  margin-top: 0;
+}
+main .fundacion .cont *{
+  padding: 0;
 }
 main h3{
+  margin-top: 30px;
   font-size: 1.1rem;
   padding: 0 18px;
   font-weight: bold;
@@ -114,7 +124,7 @@ main p:last-of-type{
 }
 main a{
   display: inline-block;
-  margin: 0 35px;
+  margin: 0 auto;
   background-color: #ee8503;
   background-color: #F19733;
   color: white;
@@ -125,6 +135,13 @@ main a{
   box-shadow: 0 0 15px inset #EE7D00;
   font-weight: bold;
   transition: background-color .1s;
+}
+main .obras p{
+  padding: 0;
+}
+main .obras article{
+  display: flex;
+  flex-direction: column;
 }
 main a:hover{
   background-color: #ffa434;
@@ -154,13 +171,20 @@ main .cont-numeros img{
   width: 60px;
 }
 main article, main section{
-  padding: 30px 0 0 0;
+  padding: 0px 0 0 0;
+}
+main .alone-fundacion h1{
+  color: #EE7D00;
+  text-decoration: underline;
+  margin-bottom: 40px;
+}
+main .alone-fundacion .fundacion{
+  display: flex;
+  gap: 20px;
+  text-align: center;
 }
 main section{
-  margin-top: 30px;
-}
-main section.alone{
-  border: none;
+  margin-top: 0px;
 }
 footer{
   box-shadow: 0 -5px 15px grey;
