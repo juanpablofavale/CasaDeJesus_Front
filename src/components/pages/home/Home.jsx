@@ -1,23 +1,7 @@
-//import { useEffect, useState } from 'react'
 import './Home.css'
 import NavLnk from '../../components/navlnk/NavLnk'
-//import { server } from '../../../utils/axios'
-//import Article from '../../components/articulo/Article'
 
 const Home = () => {
-
-        /*
-      <section>
-        {
-          data.length && data.map(art => <Article key={art.titulo} art={art}/>)
-        }
-      </section>
-      */
-
-  //const [data, setData] = useState([])
-  /*useEffect(()=>{
-    server.get().then(res => setData(res.data));
-  },[])*/
   return (
     <>
       <section className='video'>
@@ -28,22 +12,22 @@ const Home = () => {
         <p>Somos una organización sin fines de lucro que nació en el año 2014 con el propósito de contribuir a formar una sociedad mejor, más justa y más fraterna. Trabajamos en cada una de nuestras obras, fomentando los valores del Evangelio, con la intención de que todas las personas puedan experimentar la presencia del amor de Dios en su vida.</p>
       </section>
       <section>
-        <h2>La fundación en Números</h2>
+        <h2>La Fundación en Números</h2>
         <div className='cont-numeros'>
           <div>
             <img src="/img/huesped.png" alt="huesped"/>
             <h4>414</h4>
-            <h5>Huespedes pasaron por casa San Francisco</h5>
+            <h5>Huespedes pasaron por el hogar San Francisco</h5>
           </div>
           <div>
             <img src="/img/paciente.png" alt="paciente" />
             <h4>12075</h4>
-            <h5>Personas que utilizaron el servicio de casa Posadas</h5>
+            <h5>Personas utilizaron el servicio del hogar Posadas</h5>
           </div>
           <div>
             <img src="/img/vianda.png" alt="vianda" />
             <h4>1600</h4>
-            <h5>Viandas que se entragaron por semana en casa Nazaret</h5>
+            <h5>Viandas entregadas por semana en el hogar Nazaret</h5>
           </div>
           <div>
             <img src="/img/voluntario.png" alt="voluntario" />
