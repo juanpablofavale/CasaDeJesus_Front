@@ -20,12 +20,37 @@ const Home = () => {
   },[])*/
   return (
     <>
-      <section>
+      <section className='video'>
         <video autoPlay muted loop src="/video/Intro.mp4"></video>
       </section>
-      <section>
+      <section className='quienes'>
         <h2>Quienes somos</h2>
         <p>Somos una organización sin fines de lucro que nació en el año 2014 con el propósito de contribuir a formar una sociedad mejor, más justa y más fraterna. Trabajamos en cada una de nuestras obras, fomentando los valores del Evangelio, con la intención de que todas las personas puedan experimentar la presencia del amor de Dios en su vida.</p>
+      </section>
+      <section>
+        <h2>La fundación en Números</h2>
+        <div className='cont-numeros'>
+          <div>
+            <img src="/img/huesped.png" alt="huesped"/>
+            <h4>414</h4>
+            <h5>Huespedes pasaron por casa San Francisco</h5>
+          </div>
+          <div>
+            <img src="/img/paciente.png" alt="paciente" />
+            <h4>12075</h4>
+            <h5>Personas que utilizaron el servicio de casa Posadas</h5>
+          </div>
+          <div>
+            <img src="/img/vianda.png" alt="vianda" />
+            <h4>1600</h4>
+            <h5>Viandas que se entragaron por semana en casa Nazaret</h5>
+          </div>
+          <div>
+            <img src="/img/voluntario.png" alt="voluntario" />
+            <h4>300</h4>
+            <h5>Voluntarios en todas las obras</h5>
+          </div>
+        </div>
       </section>
       <section>
         <h2>Obras</h2>
@@ -64,31 +89,6 @@ const Home = () => {
       </section>
       <section>
         <h2>Banner Se Parte</h2>
-      </section>
-      <section>
-        <h2>La fundación en Números</h2>
-        <div className='cont-numeros'>
-          <div>
-            <img src="/img/huesped.png" alt="huesped"/>
-            <h4>414</h4>
-            <h5>Huespedes pasaron por casa San Francisco</h5>
-          </div>
-          <div>
-            <img src="/img/paciente.png" alt="paciente" />
-            <h4>12075</h4>
-            <h5>Personas que utilizaron el servicio de casa Posadas</h5>
-          </div>
-          <div>
-            <img src="/img/vianda.png" alt="vianda" />
-            <h4>1600</h4>
-            <h5>Viandas que se entragaron por semana en casa Nazaret</h5>
-          </div>
-          <div>
-            <img src="/img/voluntario.png" alt="voluntario" />
-            <h4>300</h4>
-            <h5>Voluntarios en todas las obras</h5>
-          </div>
-        </div>
       </section>
       <section>
         <h2>Destacado</h2>
