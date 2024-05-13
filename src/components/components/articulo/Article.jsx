@@ -12,7 +12,10 @@ const Article = ({menu, sub}) => {
   return (
     <section className={'alone alone-' + sub}>
       {
-        data && <h1>{data[menu][sub].titulo}</h1>
+        data && data[menu][sub].portada && <img className='portada' src={data[menu][sub].portada} alt={"Logo " + data[menu][sub].titulo} />
+      }
+      {
+        data && !data[menu][sub].portada && <h1>{data[menu][sub].titulo}</h1>
       }
       <div className={sub}>
         {

@@ -73,6 +73,11 @@ main section video{
   border: 8px groove grey;
   box-shadow: 10px 10px 15px #5c595379;
 }
+main section .portada{
+  display: block;
+  margin: auto;
+  width: 100%;
+}
 main .quienes{
   margin-top: 50px;
   margin: 50px 40px 0 40px;
@@ -190,6 +195,16 @@ main .alone-fundacion .fundacion{
 main section{
   margin-top: 0px;
 }
+main .bannerSeParte{
+  width: 100%;
+}
+main .seParte{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
 footer{
   box-shadow: 0 -5px 15px grey;
   background-color: #474746;
@@ -291,6 +306,10 @@ footer .logos{
   }
   main .quienes{
     transform: skew(-10deg, -1deg);
+  }
+  main section .portada{
+    float: left;
+    width: 300px;
   }
 }
 

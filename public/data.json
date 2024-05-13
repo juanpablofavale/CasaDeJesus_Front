@@ -1,7 +1,7 @@
 {
     "obras":{
         "nazaret":{
-            "portada":"url",
+            "portada":"/img/LOGO_Casa_Nazaret.png",
             "titulo":"Casa Nazaret",
             "parrafos":[
                 "Esta casa, ubicada en Haedo, nace en el año 2019 como un espacio de contención y promoción de la vida familiar. Desde el año 2020, todas las noches se entrega la cena a más de 400 personas, de lunes a viernes. También se entregan bolsones con diferentes alimentos a 2.000 familias por mes.",
@@ -13,6 +13,7 @@
             "imagenes":[]
         },
         "posadas":{
+            "portada":"/img/LOGO_Casa_Posadas.png",
             "titulo":"Casa Posadas",
             "parrafos":[
                 "Se trata de un espacio para el descanso, el esparcimiento y la contención de familiares y/o acompañantes de pacientes internados o bajo tratamiento prolongado en el Hospital Nacional Posadas, quienes residen en zonas alejadas y deben abandonar temporalmente su hogar y su familia.",
@@ -26,6 +27,7 @@
             "imagenes":[]
         },
         "francisco":{
+            "portada":"/img/LOGO_Hogar_SanFrancisco.png",
             "titulo":"Hogar San Francisco",
             "parrafos":[
                 "Inaugurado en mayo de 2015, es un hogar de tránsito para mujeres y niños, ubicado en Morón. Nace con el propósito de dar respuesta inmediata e integral a las mujeres que atraviesan una situación concreta de vulnerabilidad, ya sea material, económica, humana, espiritual o afectiva.",
@@ -36,6 +38,7 @@
             "imagenes":[]
         },
         "teresita":{
+            "portada":"/img/LOGO_Hospice_Santa_Teresita.png",
             "titulo":"Hospice Santa Teresita",
             "parrafos":[
                 "En 2021 comenzamos a soñar con la apertura de un Hospice; un hogar en el que pudieran hospedarse personas que sufren una enfermedad avanzada, especialmente aquellas de mayor vulnerabilidad, en el momento final de la vida; a quienes se les brinde un cuidado integral, acompañamiento y contención, haciéndolas sentir como en su casa.",

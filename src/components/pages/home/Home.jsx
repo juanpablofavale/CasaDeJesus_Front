@@ -68,8 +68,9 @@ const Home = () => {
       <section>
         <h2>Banner Como donar</h2>
       </section>
-      <section>
-        <h2>Banner Se Parte</h2>
+      <section className='seParte'>
+        <img className='bannerSeParte' src="/img/SeParte.png" alt="Banner Se Parte" />
+        <NavLnk lnk="/works/teresita" name="Mas información"/>
       </section>
       <section>
         <h2>Destacado</h2>
