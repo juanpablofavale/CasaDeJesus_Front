@@ -1,4 +1,5 @@
 import { Nav, NavDropdown } from 'react-bootstrap'
+import NavLnk from '../../components/navlnk/NavLnk'
 
 export default function NavDrop({item}) {
     return (
@@ -10,7 +11,7 @@ export default function NavDrop({item}) {
                 item.sub &&
                     <NavDropdown title={item.name} id="basic-nav-dropdown">
                         {
-                            item.sub && item.sub.map(it => <NavDropdown.Item href={it.link}>{it.name}</NavDropdown.Item>)            
+                            item.sub && item.sub.map(it => <NavLnk lnk={it.link} key={it.link} name={it.name}/>)
                         }
                     </NavDropdown>
             }
