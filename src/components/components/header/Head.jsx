@@ -21,7 +21,7 @@ const Head = ({subMenu}) => {
               {
                 NAVIGATOR.main.map(item => <NavDrop key={item.name} item={item}/>)
               }
-              <Nav.Link className='donar' href="">Donar</Nav.Link>
+              <Nav.Link className='donar' target='_blank' href="https://donaronline.org/fundacion-casa-de-jesus/manifestemos-nuestra-fe-en-obras">Donar</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

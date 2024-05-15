@@ -69,7 +69,7 @@ const NAVIGATOR = {
                 }
             ],
         },*/
-        {
+        /*{
             name:"Eventos",
             link:"/events",
             sub:[
@@ -90,7 +90,7 @@ const NAVIGATOR = {
                     link:"/events/eventos"
                 }
             ],
-        },
+        },*/
         {
             name:"Sé Parte",
             link:"/participate",
