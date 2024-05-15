@@ -5,7 +5,7 @@ export default function NavDrop({item}) {
     return (
         <>
             { 
-                !item.sub && <Nav.Link href={item.link}>{item.name}</Nav.Link>
+                !item.sub && <Nav.Link href="#"><NavLnk lnk={item.link} name={item.name}/></Nav.Link>
             }
             {
                 item.sub &&
