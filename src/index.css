@@ -80,6 +80,9 @@ main{
   min-height: 75dvh;
   padding: 30px 0;
 }
+main .dropdown-item{
+  width: auto;
+}
 main .video{
   display: flex;
   justify-content: center;
@@ -159,8 +162,9 @@ main a{
   padding: 10px 25px;
   text-decoration: none;
   border-radius: 55px;
-  box-shadow: 0 0 15px inset #734f16;
-  box-shadow: 0 0 15px inset #EE7D00;
+  /*box-shadow: 0 0 15px inset #734f16;
+  box-shadow: 0 0 15px inset #EE7D00;*/
+  margin-top: 7px;
   font-weight: bold;
   transition: background-color .1s;
 }
