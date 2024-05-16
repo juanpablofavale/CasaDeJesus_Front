@@ -5,7 +5,7 @@ const NAVIGATOR = {
             link:"/",
         },
         {
-            name:"La Fundacion",
+            name:"Nosotros",
             link:"/about",
             sub:[
                 {
@@ -17,16 +17,16 @@ const NAVIGATOR = {
                     link:"/about/historia"
                 },
                 /*{
-                    name:"Nuestra Inspiración",
-                    link:"/about/inspiracion"
-                },
-                {
                     name:"Consejo de Administración",
                     link:"/about/administracion"
                 },*/
                 {
                     name:"Compromiso ODS",
                     link:"/about/compromiso"
+                },
+                {
+                    name:"Oracion",
+                    link:"/about/oracion"
                 }
             ],
         },

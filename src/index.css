@@ -78,7 +78,7 @@ header .dropdown-item a{
 }
 main{
   min-height: 75dvh;
-  padding: 30px 0;
+  padding: 30px 0px;
 }
 main .dropdown-item{
   width: auto;
@@ -168,12 +168,26 @@ main a{
   font-weight: bold;
   transition: background-color .1s;
 }
+main .donar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .donar a{
+  margin: 7px 0 0 50px;
+}
+main .anotate{
+  display: inline-block;
+}
 main .obras p{
-  padding: 0;
+  padding: 0 15px;
 }
 main .obras article{
   display: flex;
   flex-direction: column;
+}
+main .obras .dropdown-item{
+  margin: 0 0 0 25px;
 }
 main a:hover{
   background-color: #ffa434;
@@ -217,6 +231,13 @@ main .alone-fundacion .fundacion{
   gap: 20px;
   text-align: center;
 }
+main .alone-donar div{
+  margin: 0;
+  margin-bottom: 30px;
+}
+main .alone-donar div p{
+  margin: 0;
+}
 main section{
   margin-top: 0px;
 }
@@ -230,10 +251,41 @@ main .seParte{
   justify-content: center;
   gap: 10px;
 }
+main .ods{
+  width: 50%;
+  margin-bottom: 15px;
+}
+main .ods-banner{
+  width: 100%;
+}
 footer{
   box-shadow: 0 -5px 15px grey;
   background-color: #474746;
   padding: 20px 0;
+}
+footer #jpf{
+  text-decoration: none;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-family: "Special Elite";
+  color: black;
+  font-size: 15px;
+  padding: 10px 0;
+  background-color: #474746;
+}
+footer #jpf a{
+  color: #EE7D00;
+  text-decoration: none;
+  font-family: "Special Elite";
+  font-size: 15px;
+}
+footer .mapa{
+  height: 200px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 footer .content{
   display: flex;
@@ -244,8 +296,7 @@ footer .content{
 }
 footer .redes{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
   gap: 20px;
   padding: 10px 0;
 }
@@ -258,9 +309,10 @@ footer nav a:hover{
 footer .nav-foot{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  flex-direction: column;
+  gap: 15px;
 }
 footer .nav-foot img{
   width: 100px;
@@ -305,6 +357,9 @@ footer .logos{
   main .quienes{
     margin: 50px 50px 0 50px;
     padding: 20px 10px !important;
+  }
+  footer .nav-foot{
+    flex-direction: row;
   }
 }
 
@@ -355,7 +410,7 @@ footer .logos{
     transition: all .5s;
   }
   footer .redes{
-    flex-direction: row;
+    flex-direction: column;
     gap: 20px;
   }
   footer .nav-foot nav{
@@ -365,9 +420,10 @@ footer .logos{
   }
   footer .nav-foot{
     justify-content: space-evenly;
+    margin-bottom: 15px;
   }
   main{
-    min-height: 75dvh;
+    min-height: 59.3dvh;
   }
   header .donar:hover{
     color: black !important;

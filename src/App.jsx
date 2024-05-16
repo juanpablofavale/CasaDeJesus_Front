@@ -20,6 +20,7 @@ function App() {
       {path: '/works/francisco', element: <Article menu="obras" sub="francisco"/>},
       {path: '/works/teresita', element: <Article menu="obras" sub="teresita"/>},
       {path: '/about/fundacion', element: <Article menu="fundacion" sub="fundacion"/>},
+      {path: '/about/oracion', element: <Article menu="fundacion" sub="oracion"/>},
       {path: '/about/historia', element: <Article menu="fundacion" sub="historia"/>},
       {path: '/about/inspiracion', element: <Article menu="fundacion" sub="inspiracion"/>},
       {path: '/about/administracion', element: <Article menu="fundacion" sub="administracion"/>},

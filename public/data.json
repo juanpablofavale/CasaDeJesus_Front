@@ -50,6 +50,34 @@
         }
     },
     "fundacion":{
+        "oracion":{
+            "portada":"/img/lujan.png",
+            "titulo":"Oración a la Virgen de Luján",
+            "parrafos":[
+                "María, Madre amorosa y fiel compañera en nuestro camino,",
+                "en este día especial, nos acercamos a vos",
+                "con un corazón lleno de gratitud y esperanza.",
+                "Te ofrecemos, querida Madre, el fruto de nuestro trabajo y esfuerzo,",
+                "sabiendo que vos, como intercesora ante tu Hijo amado,",
+                "lo recibís con amor y lo presentas ante Él.",
+                "En este mundo lleno de desafíos y adversidades,",
+                "te pedimos, Virgen Santísima, que sostengas nuestra esperanza",
+                "y la de todos aquellos que se esfuerzan por construir un mundo mejor.",
+                "Que tu mirada maternal ilumine nuestros caminos",
+                "y que tu ternura nos dé fuerzas para perseverar en la fe,",
+                "confiando en que la luz de Jesús siempre guiará nuestros pasos.",
+                "Madre querida, acompáñanos en nuestros momentos de duda y desaliento, ",
+                "y ayúdanos a mantener viva la llama de la esperanza en medio de las dificultades. Que tu ejemplo de ",
+                "fe y entrega sea para nosotros luz en la oscuridad,",
+                "y que en todo momento podamos sentir tu amor maternal",
+                "Virgen de Luján, Madre de cada uno de los argentinos, ",
+                "te confiamos nuestros anhelos, sueños y proyectos",
+                "seguro de que en tu regazo encontraremos consuelo y fortaleza.",
+                "Que tu intercesión ante tu Hijo Jesús nos brinde la gracia que más necesitamos, especialmente esa ",
+                "firme esperanza que solo proviene de confiar en Dios",
+                "Amén."
+            ]
+        },
         "fundacion":{
             "titulo":"La Casa de Jesus",
             "contenido":[
@@ -161,16 +189,39 @@
             "titulo":"Como donar",
             "contenido":[
                 {
-                    "subtitulo":"Como donar",
+                    "subtitulo":"Donación Mensual",
                     "parrafos":[
-                        "Contenido?"
-                    ]
+                        "Podés sumarte a través de un aporte con débito en caja de ahorro o en tu tarjeta de crédito VISA, por el monto que consideres apropiado."
+                    ],
+                    "link":"https://forms.gle/TaJbdRvVmYYNdqAq9"
                 },
                 {
-                    "subtitulo":"Socios",
+                    "subtitulo":"Donación Única",
                     "parrafos":[
-                        "Contenido?"
-                    ]
+                        "Fundación Casa de Jesús",
+                        "CUIT 30-71542097-6",
+                        "Datos Bancarios",
+                        "Banco SANTANDER RIO Suc 0366",
+                        "Cta Cte #1275/5",
+                        "CBU: 0720366220000000127554",
+                        "Alias: FUNDACION.CASA.JESUS",
+                        "Mercado pago: casadejesus"
+                    ],
+                    "link":"https://dnr.onl/Xzbyr7EK?s=w"
+                },
+                {
+                    "subtitulo":"Donación Internacional",
+                    "parrafos":[
+                        "Si te encontras en otro paí­s y quisieras ayudarnos podes hacerlo a travéss de PayPal."
+                    ],
+                    "link":"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VRHZSBMJTDJTW&source=url"
+                },
+                {
+                    "subtitulo":"Donación por QR de Mercado Pago",
+                    "parrafos":[
+                        "Podés sumarte a través de un aporte con débito en caja de ahorro o en tu tarjeta de crédito VISA, por el monto que consideres apropiado."
+                    ],
+                    "link":""
                 }
             ]
         },
@@ -186,7 +237,9 @@
         "voluntarios":{
             "titulo":"Voluntarios individuales",
             "parrafos":[
-                "Podes sumarte como voluntario en nuestras obras, todos tenemos dones para aportar."
+                "Tu tiempo es muy valioso.",
+                "Cada una de nuestras Casas se convierte en un verdadero hogar para las familias que recibimos.",
+                "El Voluntariado es una parte fundamental para llevar a cabo nuestra Misión, brindando contención, acompañamiento, desarrollando talleres, actividades para niños, adolescentes y adultos, clasificando y ofreciendo donaciones, también apoyando la organización de nuestros eventos."
             ]
         },
         "padrinos":{
