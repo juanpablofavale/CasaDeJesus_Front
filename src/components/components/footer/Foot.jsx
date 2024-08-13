@@ -18,14 +18,13 @@ const Foot = () => {
           </div>
         </div>
         <div className='redes'>
-          <a href="tel:+5491140715733" target='_blank'><img className='red' src="/img/telefono.png" alt="telefono" /> 011-154071-5733</a>
+          <a href="tel:+5491141705733" target='_blank'><img className='red' src="/img/telefono.png" alt="telefono" /> 011 - 41705733</a>
           <a href="mailto:info@casadejesus.org" target='_blank'><img className='red' src="/img/mail.png" alt="mail" /> info@casadejesus.org</a>
-          <a href="https://wa.me/+5491140715733" target='_blank'><img className='red' src="/img/whatsapp.png" alt="whatsapp" /> +54 9 11-4071-5733</a>
+          <a href="https://wa.me/+5491141705733" target='_blank'><img className='red' src="/img/whatsapp.png" alt="whatsapp" /> +54 9 11-4170-5733</a>
         </div>
         <div className='redes'>
           <a href="https://www.facebook.com/fundacioncasadejesus" target='_blank'><img className='red' src="/img/facebook-icon.png" alt="facebook" /> /fundacioncasadejesus</a>
           <a href="https://www.instagram.com/fcasadejesus/?hl=es-la" target='_blank'><img className='red' src="/img/instagram-icon.png" alt="instagram" /> @fcasadejesus</a>
-          <a href="https://twitter.com/fcasadejesus" target='_blank'><img className='red' src="/img/twitter-icon.png" alt="twitter" /> /fcasadejesus</a>
         </div>
       </div>
       <p id="jpf">Desarrollado por <a href="https://juanpablofavale.github.io/Maqueta-Portfolio-2/" target="_blank">JPF</a></p>

@@ -80,6 +80,9 @@ main{
   min-height: 75dvh;
   padding: 30px 0px;
 }
+main .aporte{
+  display: grid;
+}
 main .dropdown-item{
   width: auto;
 }
@@ -88,6 +91,7 @@ main .video{
   justify-content: center;
   align-items: center;
   margin-top: 0px !important;
+  margin-bottom: 50px;
 }
 main section video{
   width: 100%;
@@ -168,6 +172,9 @@ main a{
   font-weight: bold;
   transition: background-color .1s;
 }
+main .aVideo{
+  background-color: white;
+}
 main .donar{
   display: flex;
   flex-direction: column;
@@ -179,18 +186,62 @@ main .donar a{
 main .anotate{
   display: inline-block;
 }
-main .obras p{
-  padding: 0 15px;
-}
-main .obras article{
+main .alone-compromiso{
   display: flex;
   flex-direction: column;
 }
+main .alone-compromiso .portada{
+  order: 1;
+  margin-bottom: 30px;
+}
+main .compromiso{
+  order: 3;
+}
+main .obras p{
+  padding: 0 15px;
+}
+main .obras{
+  display: flex;
+  flex-direction: column;
+}
+main .obras h3{
+  text-align: center;
+  margin-top: 10px;
+}
+main .obras div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .obras .obrasContenido{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.obras img{
+  width: 80%;
+  align-self: center;
+  max-width: 550px;
+  margin-top: 50px;
+  /*float: left;
+  margin: 5px;*/
+}
+main .obras div p{
+  padding: 5px 10%;
+  margin-bottom: 0;
+}
+/*
 main .obras .dropdown-item{
   margin: 0 0 0 25px;
 }
+*/
 main a:hover{
   background-color: #ffa434;
+}
+main .aVideo:hover{
+  background-color: white;
 }
 main iframe{
   width: 100%;
@@ -230,6 +281,7 @@ main .alone-fundacion .fundacion{
   display: flex;
   gap: 20px;
   text-align: center;
+  flex-direction: column;
 }
 main .alone-donar div{
   margin: 0;
@@ -250,6 +302,21 @@ main .seParte{
   align-items: center;
   justify-content: center;
   gap: 10px;
+  margin-top: 50px;
+}
+main .seParte a{
+  background-color: white;
+}
+main .seParte a img{
+  box-shadow: 0 0 15px #000000;
+  transition: all .2s;
+}
+main .seParte a img:hover{
+  box-shadow: 0px 5px 25px black;
+  transform: translateY(-5px);
+}
+main .seParte a:hover{
+  background-color: white;
 }
 main .ods{
   width: 50%;
@@ -384,12 +451,29 @@ footer .logos{
   main .cont-numeros div{
     max-width: 40dvw;
   }
+  main .aporte{
+    display: flex;
+    flex-direction: column;
+  }
+  main .aporte p{
+    padding-top: 20px;
+  }
+  main .aporte a{
+    margin-top: 14px;
+  }
   main .quienes{
     transform: skew(-10deg, -1deg);
   }
   main section .portada{
     float: left;
     width: 300px;
+  }
+  main .alone-compromiso .portada, main .alone-oracion .portada, main .alone-historia .portada{
+    float: none;
+    width: 80%;
+  }
+  main .alone-fundacion .fundacion{
+    flex-direction: row;
   }
 }
 
@@ -437,5 +521,49 @@ footer .logos{
   header .donar{
     padding: 8px;
     margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  main .obras{
+    gap: 50px;
+  }
+  main .obras .divObra{
+    flex-direction: row;
+    gap: 20px;
+    background-color: rgb(221, 220, 220);
+    box-shadow: 10px 10px 15px #0000006f;
+    border-radius: 22px;
+  }
+  main .divObra img{
+    margin: 0;
+    border-right: 5px groove orange;
+  }
+  main .obras .obrasContenido{
+    align-items: start;
+    gap: 10px;
+    padding: 0px 20px;
+  }
+  main .obras > :nth-child(2n) > .obrasContenido{
+    order: 1;
+    align-items: end;
+  }
+  main .obras > :nth-child(2n) > .obrasContenido p{
+    text-align: end;
+  }
+  main .obras > :nth-child(2n) > img{
+    order: 2;
+    border-right: none;
+    border-left: 5px groove orange;
+  }
+  main .obras div p{
+    padding: 0;
+  }
+  main .divObra a{
+    margin: 0;
+  }
+  main .divObra h3{
+    padding: 0;
+    margin: 0;
   }
 }

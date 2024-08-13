@@ -13,10 +13,18 @@ const Article = ({menu, sub}) => {
   return (
     <section className={'alone alone-' + sub}>
       {
+        data && !data[menu][sub].portada && <h1>{data[menu][sub].titulo}</h1>
+      }
+      {
         data && data[menu][sub].portada && <><img className='portada' src={data[menu][sub].portada} alt={"Logo " + data[menu][sub].titulo} /><h1>{data[menu][sub].titulo}</h1></>
       }
       {
-        data && !data[menu][sub].portada && <h1>{data[menu][sub].titulo}</h1>
+        data && sub && sub=="fundacion" &&
+        <>
+          <div className="video">
+            <video autoPlay muted loop src="/video/Intro.mp4"></video>
+          </div>
+        </>
       }
       <div className={sub}>
         {

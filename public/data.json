@@ -51,32 +51,7 @@
     },
     "fundacion":{
         "oracion":{
-            "portada":"/img/lujan.png",
-            "titulo":"Oración a la Virgen de Luján",
-            "parrafos":[
-                "María, Madre amorosa y fiel compañera en nuestro camino,",
-                "en este día especial, nos acercamos a vos",
-                "con un corazón lleno de gratitud y esperanza.",
-                "Te ofrecemos, querida Madre, el fruto de nuestro trabajo y esfuerzo,",
-                "sabiendo que vos, como intercesora ante tu Hijo amado,",
-                "lo recibís con amor y lo presentas ante Él.",
-                "En este mundo lleno de desafíos y adversidades,",
-                "te pedimos, Virgen Santísima, que sostengas nuestra esperanza",
-                "y la de todos aquellos que se esfuerzan por construir un mundo mejor.",
-                "Que tu mirada maternal ilumine nuestros caminos",
-                "y que tu ternura nos dé fuerzas para perseverar en la fe,",
-                "confiando en que la luz de Jesús siempre guiará nuestros pasos.",
-                "Madre querida, acompáñanos en nuestros momentos de duda y desaliento, ",
-                "y ayúdanos a mantener viva la llama de la esperanza en medio de las dificultades. Que tu ejemplo de ",
-                "fe y entrega sea para nosotros luz en la oscuridad,",
-                "y que en todo momento podamos sentir tu amor maternal",
-                "Virgen de Luján, Madre de cada uno de los argentinos, ",
-                "te confiamos nuestros anhelos, sueños y proyectos",
-                "seguro de que en tu regazo encontraremos consuelo y fortaleza.",
-                "Que tu intercesión ante tu Hijo Jesús nos brinde la gracia que más necesitamos, especialmente esa ",
-                "firme esperanza que solo proviene de confiar en Dios",
-                "Amén."
-            ]
+            "portada":"/img/OracionVirgen.png"
         },
         "fundacion":{
             "titulo":"La Casa de Jesus",
@@ -102,15 +77,7 @@
             ]
         },
         "historia":{
-            "titulo":"Nuestra Historia",
-            "parrafos":[
-                "La Fundación Casa de Jesús inició sus actividades el 8 de mayo de 2014, en el día de Nuestra Señora de Luján, como respuesta a la inquietud de un grupo de personas que, acompañadas por un sacerdote como asesor espiritual, decidieron involucrarse para aliviar el dolor y acompañar la vida de quienes quieren progresar y no tienen los medios para hacerlo.",
-                "Así fue como se estableció, en el partido de Morón, como una organización sin fines de lucro conformada por un Consejo de Administración, socios benefactores, asociados y voluntarios que, junto con la guía espiritual de un sacerdote, ofrecen generosamente su tiempo y esfuerzos para intentar conectar la vida de los que pueden un poco más, con aquellos que no pueden nada.",
-                "Con el propósito de contribuir a formar una sociedad mejor, más justa y más fraterna, ese mismo año se inaugura el Hogar San Francisco, en Morón.",
-                "Luego, en el año 2016, nace Casa Posadas, con la misión de brindar hospitalidad con caridad cristiana, acompañando a cada persona en el dolor, a través del servicio, el respeto y la contención, en el predio del Hospital Nacional Posadas, en El Palomar.",
-                "El 19 de marzo del año 2019, reforzando el compromiso de estar cerca de quienes más necesitan, abre sus puertas Casa Nazaret, en Haedo, como un espacio de promoción de la vida familiar que también nos permita estar cerca de aquellos que se sienten desamparados.",
-                "En 2021 comenzamos a soñar con la apertura de un Hospice; un hogar en el que pudieran hospedarse personas que sufren una enfermedad avanzada, especialmente aquellas de mayor vulnerabilidad, en el momento final de la vida; a quienes se les brinde un cuidado integral, acompañamiento y contención, haciéndolas sentir como en su casa."
-            ]
+            "portada":"/img/Historia.png"
         },
         "inspiracion":{
             "titulo":"Nuestra Inspiración",
@@ -131,6 +98,7 @@
         },
         "compromiso":{
             "titulo":"Compromiso ODS",
+            "portada":"/img/ODS.png",
             "parrafos":[
                 "Los Objetivos de Desarrollo Sostenible (ODS) han sido diseñados por la Organización de las Naciones Unidas (ONU).",
                 "La Fundación Casa de Jesús asume su compromiso con los siguientes ODS con el fin de sumarse a su objetivo principal, como también promoverlos siendo puente para que otras organizaciones puedan también sumarse, como por ejemplo a través de nuestros programas de Voluntariado Corporativo."
@@ -184,6 +152,38 @@
             ]
         }
     },
+    "parrafoshistoria":[
+        "La Fundación Casa de Jesús inició sus actividades el 8 de mayo de 2014, en el día de Nuestra Señora de Luján, como respuesta a la inquietud de un grupo de personas que, acompañadas por un sacerdote como asesor espiritual, decidieron involucrarse para aliviar el dolor y acompañar la vida de quienes quieren progresar y no tienen los medios para hacerlo.",
+        "Así fue como se estableció, en el partido de Morón, como una organización sin fines de lucro conformada por un Consejo de Administración, socios benefactores, asociados y voluntarios que, junto con la guía espiritual de un sacerdote, ofrecen generosamente su tiempo y esfuerzos para intentar conectar la vida de los que pueden un poco más, con aquellos que no pueden nada.",
+        "Con el propósito de contribuir a formar una sociedad mejor, más justa y más fraterna, ese mismo año se inaugura el Hogar San Francisco, en Morón.",
+        "Luego, en el año 2016, nace Casa Posadas, con la misión de brindar hospitalidad con caridad cristiana, acompañando a cada persona en el dolor, a través del servicio, el respeto y la contención, en el predio del Hospital Nacional Posadas, en El Palomar.",
+        "El 19 de marzo del año 2019, reforzando el compromiso de estar cerca de quienes más necesitan, abre sus puertas Casa Nazaret, en Haedo, como un espacio de promoción de la vida familiar que también nos permita estar cerca de aquellos que se sienten desamparados.",
+        "En 2021 comenzamos a soñar con la apertura de un Hospice; un hogar en el que pudieran hospedarse personas que sufren una enfermedad avanzada, especialmente aquellas de mayor vulnerabilidad, en el momento final de la vida; a quienes se les brinde un cuidado integral, acompañamiento y contención, haciéndolas sentir como en su casa."
+    ],
+    "parrafosoracion":[
+        "María, Madre amorosa y fiel compañera en nuestro camino,",
+        "en este día especial, nos acercamos a vos",
+        "con un corazón lleno de gratitud y esperanza.",
+        "Te ofrecemos, querida Madre, el fruto de nuestro trabajo y esfuerzo,",
+        "sabiendo que vos, como intercesora ante tu Hijo amado,",
+        "lo recibís con amor y lo presentas ante Él.",
+        "En este mundo lleno de desafíos y adversidades,",
+        "te pedimos, Virgen Santísima, que sostengas nuestra esperanza",
+        "y la de todos aquellos que se esfuerzan por construir un mundo mejor.",
+        "Que tu mirada maternal ilumine nuestros caminos",
+        "y que tu ternura nos dé fuerzas para perseverar en la fe,",
+        "confiando en que la luz de Jesús siempre guiará nuestros pasos.",
+        "Madre querida, acompáñanos en nuestros momentos de duda y desaliento, ",
+        "y ayúdanos a mantener viva la llama de la esperanza en medio de las dificultades. Que tu ejemplo de ",
+        "fe y entrega sea para nosotros luz en la oscuridad,",
+        "y que en todo momento podamos sentir tu amor maternal",
+        "Virgen de Luján, Madre de cada uno de los argentinos, ",
+        "te confiamos nuestros anhelos, sueños y proyectos",
+        "seguro de que en tu regazo encontraremos consuelo y fortaleza.",
+        "Que tu intercesión ante tu Hijo Jesús nos brinde la gracia que más necesitamos, especialmente esa ",
+        "firme esperanza que solo proviene de confiar en Dios",
+        "Amén."
+    ],
     "parte":{
         "donar":{
             "titulo":"Como donar",
