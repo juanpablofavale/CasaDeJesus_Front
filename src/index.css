@@ -519,6 +519,9 @@ footer .logos{
     align-items: center;
     min-height: 64dvh;
   }
+  main .donar{
+    flex-direction: row;
+  }
   main .donar a{
     margin: 0px;
     margin-top: 20px;
@@ -573,7 +576,7 @@ footer .logos{
   main .alone-fundacion .fundacion{
     flex-direction: row;
   }
-  .donar .donar{
+  .donar{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -587,7 +590,7 @@ footer .logos{
     width: 40%;
     height: 40vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: column !important;
     align-items: center;
     background-color: #F19733;
     border-radius: 11px;
