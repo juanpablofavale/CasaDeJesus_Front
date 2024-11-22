@@ -45,10 +45,10 @@ const NAVIGATOR = {
                     name:"Hogar San Francisco",
                     link:"/works/francisco"
                 },
-                /*{
+                {
                     name:"Hogar Nuestra Sra. del Buen Viaje",
                     link:"/works/buenviaje"
-                },*/
+                },
                 {
                     name:"Hospice Santa Teresita",
                     link:"/works/teresita"
