@@ -49,11 +49,15 @@ const Article = ({menu, sub}) => {
                 sb.parrafos.map(p => <p key={p}>{p}</p>)
               }
               {
-                sb.link!="" && <Link to={sb.link} target='_blank'>Doná</Link>
+                sb.link!="" && <Link to={sb.link} target='_blank'>Doná ahora</Link>
               }
-              {
-                sb.link=="" && <img src="/img/QR.png" alt="QR-MP"/>
-              }
+                {
+                  sb.link=="" && 
+                  <div className='QR'>
+                    <img src="/img/QR_.png" alt="QR-MP"/>
+                    <p>Escanea este QR desde tu app de Mercado Pago</p>
+                  </div>
+                }
             </div>
           })
         }

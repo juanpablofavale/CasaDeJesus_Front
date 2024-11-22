@@ -18,6 +18,7 @@ function App() {
       {path: '/works/nazaret', element: <Article menu="obras" sub="nazaret"/>},
       {path: '/works/posadas', element: <Article menu="obras" sub="posadas"/>},
       {path: '/works/francisco', element: <Article menu="obras" sub="francisco"/>},
+      {path: '/works/buenviaje', element: <Article menu="obras" sub="buenviaje"/>},
       {path: '/works/teresita', element: <Article menu="obras" sub="teresita"/>},
       {path: '/about/fundacion', element: <Article menu="fundacion" sub="fundacion"/>},
       {path: '/about/oracion', element: <Article menu="fundacion" sub="oracion"/>},

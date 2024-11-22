@@ -37,14 +37,21 @@
             ],
             "imagenes":[]
         },
+        "buenviaje":{
+            "portada":"/img/LOGO_Hogar_SanFrancisco.png",
+            "titulo":"Hogar de Ancianas Nuestra Señora del Buen Viaje",
+            "parrafos":[
+                "El Hogar Nuestra Señora del Buen Viaje, ubicado en Ituzaingó, brinda un espacio cálido y seguro para mujeres mayores.",
+                "Con capacidad para 40 residentes, el hogar ofrece alojamiento, alimentación y un acompañamiento cercano, asegurando que cada abuela reciba el cuidado y el respeto que merece en un entorno de amor y comprensión."
+            ],
+            "imagenes":[]
+        },
         "teresita":{
             "portada":"/img/LOGO_Hospice_Santa_Teresita.png",
             "titulo":"Hospice Santa Teresita",
             "parrafos":[
-                "En 2021 comenzamos a soñar con la apertura de un Hospice; un hogar en el que pudieran hospedarse personas que sufren una enfermedad avanzada, especialmente aquellas de mayor vulnerabilidad, en el momento final de la vida; a quienes se les brinde un cuidado integral, acompañamiento y contención, haciéndolas sentir como en su casa.",
-                "La FCJ tiene como finalidad replicar en sus obras los sentimientos del corazón de Jesús. Ser casa es, concretamente, ser el lugar donde recibimos a todos, a la manera del corazón de Jesús. Por eso su propósito es estar cerca especialmente de las personas que atraviesan el dolor de la enfermedad, y necesitan de cuidados paliativos.",
-                "En esa etapa tan difícil de la vida, queremos contener, acompañar y preparar para lo que creemos es el encuentro definitivo con Dios en la vida eterna, allí donde tenemos todos puesta nuestra mirada, en nuestra misión final.",
-                "El Hospice es un lugar donde la fuerza de la oración, el amor mutuo y el compromiso con los que más sufren, nos reunirá para cuidar especialmente a los que nadie cuida y para mostrarle al mundo el verdadero sentido de la bondad y de la misericordia."
+                "Inaugurado el 1 de octubre de 2024 en Ituzaingó, el Hospice Santa Teresita es un hogar con capacidad para cuatro camas que brinda atención y acompañamiento a personas en etapa terminal y en situación de vulnerabilidad.",
+                "Con un equipo de voluntarios, enfermeros y médicos, el hospice se dedica a ofrecer cuidado integral, hospitalidad y contención, haciendo que tanto los huéspedes como sus familias se sientan en un verdadero hogar, con una atención marcada por la ternura y el respeto."
             ],
             "imagenes":[]
         }
