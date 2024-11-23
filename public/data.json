@@ -50,8 +50,10 @@
             "portada":"/img/teresita/LOGO.png",
             "titulo":"Hospice Santa Teresita",
             "parrafos":[
-                "Inaugurado el 1 de octubre de 2024 en Ituzaingó, el Hospice Santa Teresita es un hogar con capacidad para cuatro camas que brinda atención y acompañamiento a personas en etapa terminal y en situación de vulnerabilidad.",
-                "Con un equipo de voluntarios, enfermeros y médicos, el hospice se dedica a ofrecer cuidado integral, hospitalidad y contención, haciendo que tanto los huéspedes como sus familias se sientan en un verdadero hogar, con una atención marcada por la ternura y el respeto."
+                "Inaugurado el 1 de octubre de 2024 en la localidad de Ituzaingó, el Hospice Santa Teresita es un espacio que nació del sueño de brindar una atención compasiva y cercana a quienes atraviesan la etapa final de su vida, en especial a personas en situación de vulnerabilidad que enfrentan enfermedades avanzadas. Inspirados por el deseo de ofrecer un espacio que emule los sentimientos del corazón de Jesús, el Hospice busca acoger a los más necesitados, proporcionándoles cuidado integral, acompañamiento y contención, haciéndolos sentir en un verdadero hogar.",
+                "Con capacidad para cuatro huéspedes, el Hospice es un lugar íntimo donde cada huésped recibe una atención personalizada, y donde la hospitalidad y la ternura están presentes en cada detalle. El equipo, compuesto por voluntarios, enfermeros y médicos, acompaña tanto a los huéspedes como a sus familias, creando un ambiente de paz y consuelo. La atención va más allá de lo clínico, ya que el propósito del hospice es también apoyar espiritualmente a las personas en este momento tan delicado, preparándolas para lo que consideramos un encuentro definitivo con Dios en la vida eterna.",
+                "En el Hospice Santa Teresita, la oración y el amor mutuo se reflejan en los cuidados diarios. Las enfermeras atienden las necesidades de salud y bienestar con la más profunda dedicación, cuidando cada aspecto de la salud física y emocional de los residentes. Los voluntarios colaboran en el mantenimiento del hogar: preparan las comidas, realizan la limpieza de los espacios y la ropa, y se encargan de los quehaceres cotidianos, creando un ambiente de calidez y dedicación.",
+                "El equipo del Hospice recibe formación continua en cuidados paliativos y en aspectos de la espiritualidad de la Fundación, priorizando siempre la hospitalidad y la ternura. En el Hospice Santa Teresita, cada acción está orientada a brindar una atención digna y compasiva, cuidando a quienes enfrentan el dolor y la soledad en el final de sus vidas, y ofreciendo a las familias un espacio donde también puedan sentir consuelo y paz."
             ],
             "imagenes":[]
         }
@@ -101,7 +103,12 @@
             "parrafos":[
                 "La FCJ está formada por un Consejo de Administración que, junto con la guía espiritual de un sacerdote, ofrecen generosamente su tiempo y esfuerzos para intentar conectar la vida de los que pueden un poco más, con aquellos que no pueden nada.",
                 "Quienes somos parte de la FCJ, luego de experimentar un encuentro profundo con Jesús, no podemos ser indiferentes al dolor de nuestros hermanos y hemos decidido, a través del trabajo concreto, vivir y celebrar con hechos su palabra; manifestamos nuestra fe en obras."
-            ]
+            ],
+            "miembros":{
+                "imagen":"",
+                "nombre":"",
+                "cargo":""
+            }
         },
         "compromiso":{
             "titulo":"Compromiso ODS",

@@ -81,11 +81,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className='aporte contenido'>
-        <h2>Actualización de Aporte Societario</h2>
-        <p>Gracias a los aportes societarios, logramos importantes avances en nuestros proyectos. La generosidad de nuestros socios nos permite seguir creciendo. Agradecemos profundamente su continuo apoyo.</p>
-        <a href="/data/IPC.pdf" target='_blank'>Conocelo</a>
-      </section>
       <section className='contenido'>
         <h2 id='obras'>Obras</h2>
         <div className='obras'>
@@ -135,6 +130,11 @@ const Home = () => {
         <Link to="/participate/donar">
           <img className='bannerSeParte' src="/img/SeParte.png" alt="Banner Se Parte" />
         </Link>
+      </section>
+      <section className='aporte contenido'>
+        <h2>Actualización de Aporte Societario</h2>
+        <p>Gracias a los aportes societarios, logramos importantes avances en nuestros proyectos. La generosidad de nuestros socios nos permite seguir creciendo. Agradecemos profundamente su continuo apoyo.</p>
+        <a href="/data/IPC.pdf" target='_blank'>Conocelo</a>
       </section>
       <section className='contenido destacado'>
         <h2>Destacado</h2>

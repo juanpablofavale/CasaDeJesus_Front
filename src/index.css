@@ -9,7 +9,7 @@
 body{
   background-image: url('/img/fondo.png');
   background-size: 100%;
-  background-position: center;
+  background-position: center top;
   background-repeat: repeat-y;
 }
 header{
@@ -52,7 +52,7 @@ header .navbar-toggler{
   border-color: orange;
 }
 header .navbar-toggler:focus{
-  box-shadow: 0 0 8px 0.15rem orange;
+  box-shadow: 0 0 8px 0.15rem #ee8503;
 }
 header .navbar-collapse{
   padding: 0 20px 0px 20px;
@@ -61,33 +61,38 @@ header .dropdown-toggle::after{
   content: initial;
 }
 header .donar{
-  color: white;
-  background-color: #EE7D00;
+  color: white !important;
+  background-color: #ee8503;
   border-radius: 5px;
   font-weight: bold;
   padding: 10px;
+  transition: all .2s;
+  margin-top: 16px;
 }
 header .ms-auto a:hover{
-  color: #EE7D00;
+  color: #ee8503;
 }
 header .donar:hover{
   color: white !important;
 }
 header .nav-link{
+  color: white;
   color: black;
 }
 header .dropdown-item a{
   text-decoration: none;
   font-weight: bold;
+  color: white;
   color: black;
 }
 header .bg-body-tertiary{
   background-color: #80808089 !important;
+  background-color: #474746 !important;
+  background-color: #ffffffcf !important;
   box-shadow: 0px 10px 15px #00000030;
 }
 main{
-  min-height: 75dvh;
-  padding: 30px 0px;
+  padding-top: 30px;
 }
 main .aporte{
   display: grid;
@@ -100,41 +105,41 @@ main .video{
   justify-content: center;
   align-items: center;
   margin-top: 0px !important;
-  margin-bottom: 50px;
 }
 main section video{
   width: 100%;
   object-fit: fill;
   object-position: center;
-  width: 95%;
+  width: 90%;
   border: 8px groove grey;
   box-shadow: 10px 10px 15px #5c595379;
+  margin-bottom: 50px;
 }
 main section .portada{
   display: block;
   margin: auto;
-  width: 100%;
+  width: 90%;
 }
 main .quienes{
-  margin-top: 50px;
-  margin: 50px 40px 0 40px;
-  background-color: #ffa434;
+  background-color: #ee8503;
   padding: 15px 10px !important;
   transform: skew(-5deg, -1deg);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.519);
   border-radius: 5px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 main .quienes h2{
   color: white;
 }
 main h1{
-  font-size: 1.45rem;
+  font-size: 1.5rem;
   text-align: center;
   font-weight: bold;
+  background-color: #ffffffcc;
 }
 main h2{
-  margin-top: 50px;
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   padding: 0px 10px 0px 10px;
   font-weight: bold;
   color: black;
@@ -156,7 +161,7 @@ main h3{
   font-weight: bold;
 }
 main h4{
-  font-size: 1rem;
+  font-size: 1.1rem;
   padding: 0 22px;
   font-weight: bold;
 }
@@ -173,7 +178,7 @@ main a{
   display: inline-block;
   margin: 0 auto;
   background-color: #ee8503;
-  background-color: #F19733;
+  background-color: #ee8503;
   color: white;
   padding: 10px 25px;
   text-decoration: none;
@@ -200,16 +205,15 @@ main .donar a{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 30px;
   color: white;
-  margin: 50px 0px !important;
 }
 .donar .cont{
   width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #F19733;
+  background-color: #ee8503;
   border-radius: 11px;
   padding-bottom: 40px;
 }
@@ -220,7 +224,7 @@ main .donar a{
   font-weight: bolder;
 }
 .donar .cont a{
-  color: #F19733;
+  color: #ee8503;
   background-color: white;
   font-size: 20px;
   font-weight: bolder;
@@ -279,12 +283,16 @@ main .obras{
   display: flex;
   flex-direction: column;
 }
+main .obras .portada{
+  width: 40%;
+}
 main .obras h3{
   text-align: center;
   margin-top: 10px;
 }
 .navbar-expand-lg .navbar-nav{
   align-items: center;
+  text-align: center;
 }
 main .obras div{
   display: flex;
@@ -292,7 +300,10 @@ main .obras div{
   align-items: center;
   flex-direction: column;
 }
-.cont-numeros div, main .aporte, .compromiso, .nazaret, .posadas, .francisco, .teresita, .voluntariado, .voluntarios, .padrinos, .profesionales, .festejos, .fundacion, .buenviaje, main .obras div{
+main .obras .divObra{
+  padding-bottom: 20px;
+}
+main section{
   background-color: #ffffffcc;
 }
 main .obras .obrasContenido{
@@ -305,9 +316,6 @@ main .obras .obrasContenido{
   width: 80%;
   align-self: center;
   max-width: 550px;
-  margin-top: 50px;
-  /*float: left;
-  margin: 5px;*/
 }
 main .obras div p{
   padding: 5px 10%;
@@ -319,7 +327,7 @@ main .obras .dropdown-item{
 }
 */
 main a:hover{
-  background-color: #ffa434;
+  background-color: #ffb300;
 }
 main .aVideo:hover{
   background-color: white;
@@ -335,7 +343,6 @@ main .cont-numeros{
   display: flex;
   text-align: center;
   justify-content: center;
-  padding: 20px 0 40px 0;
   gap: 30px;
   flex-wrap: wrap;
 }
@@ -354,8 +361,6 @@ main article, main section{
   padding: 0px 0 0 0;
 }
 main .alone-fundacion h1{
-  color: #EE7D00;
-  text-decoration: underline;
   margin-bottom: 40px;
 }
 main .alone-fundacion .fundacion{
@@ -363,19 +368,21 @@ main .alone-fundacion .fundacion{
   gap: 20px;
   text-align: center;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
 }
 main .alone-donar div{
   margin: 0;
-  margin-bottom: 30px;
 }
 main .alone-donar div p{
   margin: 0;
 }
 main section{
-  margin-top: 0px;
+  margin-bottom: 30px;
 }
 main .bannerSeParte{
-  width: 100%;
+  width: 90%;
 }
 main .seParte{
   display: flex;
@@ -383,10 +390,10 @@ main .seParte{
   align-items: center;
   justify-content: center;
   gap: 10px;
-  margin-top: 50px;
 }
 main .seParte a{
-  background-color: white;
+  background-color: #ffffff00;
+  text-align: center;
 }
 main .seParte a img{
   box-shadow: 0 0 15px #000000;
@@ -397,7 +404,7 @@ main .seParte a img:hover{
   transform: translateY(-5px);
 }
 main .seParte a:hover{
-  background-color: white;
+  background-color: #ffffff00;
 }
 main .ods{
   width: 50%;
@@ -449,7 +456,7 @@ footer .redes{
   padding: 10px 0;
 }
 footer .nav-foot .red{
-  width: 45px;
+  width: 25px;
 }
 footer nav a:hover{
   color: #ee8503;
@@ -491,7 +498,7 @@ footer .logos{
     font-size: 2rem;
   }
   main h1{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   main h2{
     font-size: 1.6rem;
@@ -501,13 +508,6 @@ footer .logos{
   }
   main p{
     font-size: 1rem;
-  }
-  main{
-    min-height: 63.2dvh;
-  }
-  main .quienes{
-    margin: 50px 50px 0 50px;
-    padding: 20px 10px !important;
   }
   footer .nav-foot{
     flex-direction: row;
@@ -519,7 +519,10 @@ footer .logos{
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 64dvh;
+    min-height: 75dvh;
+  }
+  main .bannerSeParte, main section video{
+    width: 70%;
   }
   main .donar{
     flex-direction: row;
@@ -538,15 +541,8 @@ footer .logos{
   #obras{
     margin-bottom: 30px;
   }
-  .contenido{
-    margin-top: 70px !important;
-  }
   .destacado{
     margin-bottom: 70px;
-  }
-  main section div{
-    /*max-width: 600px;*/
-    margin: 0 auto;
   }
   main .cont-numeros{
     flex-wrap: nowrap;
@@ -577,6 +573,7 @@ footer .logos{
   }
   main .alone-fundacion .fundacion{
     flex-direction: row;
+    align-items: initial;
   }
   .donar{
     display: flex;
@@ -586,7 +583,6 @@ footer .logos{
     flex-wrap: wrap;
     gap: 30px;
     color: white;
-    margin: 50px 0px !important;
   }
   .donar .cont{
     width: 40%;
@@ -594,7 +590,7 @@ footer .logos{
     display: flex;
     flex-direction: column !important;
     align-items: center;
-    background-color: #F19733;
+    background-color: #ee8503;
     border-radius: 11px;
   }
   .donar .cont:nth-child(2) h4{
@@ -604,7 +600,7 @@ footer .logos{
     font-weight: bolder;
   }
   .donar .cont a{
-    color: #F19733;
+    color: #ee8503;
     background-color: white;
     font-size: 20px;
     font-weight: bolder;
@@ -648,6 +644,10 @@ footer .logos{
     padding: 0;
     flex-basis: 0% !important;
   }
+  header .container{
+    width: 80%;
+    max-width: 992px;
+  }
   footer .content{
     padding: 10px 0;
   }
@@ -676,7 +676,6 @@ footer .logos{
     min-height: 59.3dvh;
   }
   header .donar:hover{
-    color: black !important;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.409);
     transform: translate(0, -5px);
   }
@@ -685,14 +684,17 @@ footer .logos{
     box-shadow: none;
   }
   header .donar{
-    padding: 8px;
-    margin-left: 10px;
+    margin-top: 0px;
+    margin-left: 16px;
   }
 }
 
 @media screen and (min-width: 1200px){
+  header .container{
+    max-width: 992px;
+  }
   main .obras{
-    gap: 50px;
+    gap: 20px;
   }
   main .obras .divObra{
     flex-direction: row;

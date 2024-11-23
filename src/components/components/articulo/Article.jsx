@@ -11,7 +11,7 @@ const Article = ({menu, sub}) => {
   },[])
 
   return (
-    <section className={'alone alone-' + sub}>
+    <section className={'alone alone-' + sub + ' ' + menu}>
       {
         data && !data[menu][sub].portada && <h1>{data[menu][sub].titulo}</h1>
       }

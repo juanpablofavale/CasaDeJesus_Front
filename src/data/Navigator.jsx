@@ -16,10 +16,10 @@ const NAVIGATOR = {
                     name:"Nuestra Historia",
                     link:"/about/historia"
                 },
-                /*{
+                {
                     name:"Consejo de Administración",
                     link:"/about/administracion"
-                },*/
+                },
                 {
                     name:"Compromiso ODS",
                     link:"/about/compromiso"
