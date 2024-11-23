@@ -104,11 +104,63 @@
                 "La FCJ está formada por un Consejo de Administración que, junto con la guía espiritual de un sacerdote, ofrecen generosamente su tiempo y esfuerzos para intentar conectar la vida de los que pueden un poco más, con aquellos que no pueden nada.",
                 "Quienes somos parte de la FCJ, luego de experimentar un encuentro profundo con Jesús, no podemos ser indiferentes al dolor de nuestros hermanos y hemos decidido, a través del trabajo concreto, vivir y celebrar con hechos su palabra; manifestamos nuestra fe en obras."
             ],
-            "miembros":{
-                "imagen":"",
-                "nombre":"",
-                "cargo":""
-            }
+            "miembros":[
+                {
+                    "imagen":"/consejo/AndreaBordaquievich.png",
+                    "nombre":"Andrea Bordaquievich",
+                    "cargo":"Presidente"
+                },
+                {
+                    "imagen":"/consejo/EmanuelLaudonio.png",
+                    "nombre":"Emanuel Luis Laudonio",
+                    "cargo":"Vicepresidente"
+                },
+                {
+                    "imagen":"/consejo/JuanBarbieri.png",
+                    "nombre":"Juan Alberto González Barbieri",
+                    "cargo":"Director Ejecutivo"
+                },
+                {
+                    "imagen":"/consejo/MariaGonzalez.png",
+                    "nombre":"María Victoria González",
+                    "cargo":"Secretaría"
+                },
+                {
+                    "imagen":"/consejo/AlejandroIturbide.png",
+                    "nombre":"Alejandro Martin Iturbide",
+                    "cargo":"Tesorero"
+                },
+                {
+                    "imagen":"/consejo/AlejandroClivio.png",
+                    "nombre":"Alejandro Mateo Clivio",
+                    "cargo":"Vocal"
+                },
+                {
+                    "imagen":"/consejo/AdrianCampos.png",
+                    "nombre":"Adrián Diego Campos",
+                    "cargo":"Vocal"
+                },
+                {
+                    "imagen":"/consejo/Contacto.png",
+                    "nombre":"Juan Pablo Pisano",
+                    "cargo":"Vocal"
+                },
+                {
+                    "imagen":"/consejo/MariaFernandez.png",
+                    "nombre":"María Cecilia Fernández",
+                    "cargo":"Vocal"
+                },
+                {
+                    "imagen":"/consejo/FernandoRomero.png",
+                    "nombre":"Fernando Nicolás Romero",
+                    "cargo":"Vocal"
+                },
+                {
+                    "imagen":"/consejo/MarianodelRio.png",
+                    "nombre":"Pbro. Mariano Omar del Rio",
+                    "cargo":"Asesor Espiritual"
+                }
+            ]
         },
         "compromiso":{
             "titulo":"Compromiso ODS",

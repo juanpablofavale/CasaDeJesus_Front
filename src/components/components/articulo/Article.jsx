@@ -62,6 +62,19 @@ const Article = ({menu, sub}) => {
           })
         }
       </div>
+      <div className={sub + ' miembros'} >
+        {
+        data && data[menu][sub].miembros && data[menu][sub].miembros.map(m => {
+          return <>
+                    <div key={m} className={'card_miembro ' + sub}>
+                      <img src={'/img/' + m.imagen} alt={m.nombre} />
+                      <h2>{m.nombre}</h2>
+                      <h4>{m.cargo}</h4>
+                    </div>
+                  </>
+          })
+        }
+      </div>
     </section>
   )
 }

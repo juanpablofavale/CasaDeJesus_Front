@@ -94,6 +94,30 @@ header .bg-body-tertiary{
 main{
   padding-top: 30px;
 }
+.miembros{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  align-items: center;
+  padding-top: 30px;
+}
+.card_miembro{
+  border: 1px solid grey;
+  box-shadow: 5px 5px 5px #0000004a;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  height: 380px;
+  text-align: center;
+}
+.card_miembro h2{
+  margin-top: 15px;
+  font-size: 16px;
+}
+.card_miembro h4{
+  font-size: 12px;
+}
 main .aporte{
   display: grid;
 }
