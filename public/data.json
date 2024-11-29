@@ -10,7 +10,17 @@
                 "Casa Nazaret es un hogar en el verdadero sentido de esta palabra; donde miles de familias son recibidas con amor y compromiso, gracias a la entrega generosa de muchísimos voluntarios que colaboran durante toda la semana.",
                 "“La familia es un espacio privilegiado donde la vida crece, se desarrolla y se hace más plena y más feliz. Por eso, Casa Nazaret es un espacio de promoción de la vida familiar y su nombre radica justamente en lo significativo del lugar donde nació la Sagrada Familia”."
             ],
-            "imagenes":[]
+            "numeros":"/img/nazaret/numeros.png",
+            "imagenes":[
+                "/img/nazaret/g1.png",
+                "/img/nazaret/g2.png",
+                "/img/nazaret/g3.png",
+                "/img/nazaret/g4.png",
+                "/img/nazaret/g5.png",
+                "/img/nazaret/g6.png",
+                "/img/nazaret/g7.png",
+                "/img/nazaret/g8.png"
+            ]
         },
         "posadas":{
             "portada":"/img/posadas/LOGO.png",
@@ -24,7 +34,19 @@
                 "La función social es acompañar a las familias brindando contención, herramientas para su organización familiar, a través de entrevistas, encuentros y talleres, trabajando junto con otros servicios y equipos de salud del Hospital.",
                 "La casa ofrece un servicio personalizado, humanizado e integral impulsando la consolidación de un modelo de atención basado en el trato digno, que contemple y respete las características educativas, culturales, espirituales y sociales del paciente y su familia."
             ],
-            "imagenes":[]
+            "numeros":"/img/posadas/numeros.png",
+            "imagenes":[
+                "/img/posadas/g1.png",
+                "/img/posadas/g2.png",
+                "/img/posadas/g3.png",
+                "/img/posadas/g4.png",
+                "/img/posadas/g5.png",
+                "/img/posadas/g6.png",
+                "/img/posadas/g7.png",
+                "/img/posadas/g8.png",
+                "/img/posadas/g9.png",
+                "/img/posadas/g10.png"
+            ]
         },
         "francisco":{
             "portada":"/img/francisco/LOGO.png",
@@ -35,7 +57,17 @@
                 "La casa nace por la necesidad de darle alojamiento a las personas que dormían en los pasillos del Hospital Posadas. La mayoría de ellos, de bajos recursos, familiares de pacientes que estaban siendo tratados por una dolencia.",
                 "A los huéspedes se les brinda alojamiento y comida, y se los acompaña desde el servicio social, en la resolución de la problemática que los trajo hasta la casa."
             ],
-            "imagenes":[]
+            "numeros":"/img/francisco/numeros.png",
+            "imagenes":[
+                "/img/francisco/g1.png",
+                "/img/francisco/g2.png",
+                "/img/francisco/g3.png",
+                "/img/francisco/g4.png",
+                "/img/francisco/g5.png",
+                "/img/francisco/g6.png",
+                "/img/francisco/g7.png",
+                "/img/francisco/g8.png"
+            ]
         },
         "buenviaje":{
             "portada":"/img/buenviaje/LOGO.png",
@@ -44,6 +76,7 @@
                 "El Hogar Nuestra Señora del Buen Viaje, ubicado en Ituzaingó, brinda un espacio cálido y seguro para mujeres mayores.",
                 "Con capacidad para 40 residentes, el hogar ofrece alojamiento, alimentación y un acompañamiento cercano, asegurando que cada abuela reciba el cuidado y el respeto que merece en un entorno de amor y comprensión."
             ],
+            "numeros":"",
             "imagenes":[]
         },
         "teresita":{
@@ -55,7 +88,14 @@
                 "En el Hospice Santa Teresita, la oración y el amor mutuo se reflejan en los cuidados diarios. Las enfermeras atienden las necesidades de salud y bienestar con la más profunda dedicación, cuidando cada aspecto de la salud física y emocional de los residentes. Los voluntarios colaboran en el mantenimiento del hogar: preparan las comidas, realizan la limpieza de los espacios y la ropa, y se encargan de los quehaceres cotidianos, creando un ambiente de calidez y dedicación.",
                 "El equipo del Hospice recibe formación continua en cuidados paliativos y en aspectos de la espiritualidad de la Fundación, priorizando siempre la hospitalidad y la ternura. En el Hospice Santa Teresita, cada acción está orientada a brindar una atención digna y compasiva, cuidando a quienes enfrentan el dolor y la soledad en el final de sus vidas, y ofreciendo a las familias un espacio donde también puedan sentir consuelo y paz."
             ],
-            "imagenes":[]
+            "numeros":"",
+            "imagenes":[
+                "/img/teresita/g1.png",
+                "/img/teresita/g2.png",
+                "/img/teresita/g3.png",
+                "/img/teresita/g4.png",
+                "/img/teresita/g5.png"
+            ]
         }
     },
     "fundacion":{

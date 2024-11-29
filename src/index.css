@@ -224,6 +224,44 @@ main .donar{
 main .donar a{
   margin: 7px 0 0 50px;
 }
+main .obras .numeros{
+  margin-top: 20px;
+}
+main .galeria{
+  background-color: white;
+  background: linear-gradient(#ffe2c0, white 70%);
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px black;
+  padding: 30px;
+  border: 2px solid grey;
+}
+main .galeria img{
+  width: 100%;
+  cursor: pointer;
+  vertical-align: initial !important;
+  transition: .2s;
+}
+main .galeria img:hover{
+  box-shadow: 0 0 10px #EE7D00;
+}
+main .galeria .principal{
+  justify-self: center;
+  cursor: initial;
+  width: 80%;
+  grid-column-start: span 5;
+  grid-row-start: span 2;
+  border: 2px dashed #EE7D00;
+  border: 6px outset orange;
+  border: 2px solid grey;
+  margin-bottom: 20px;
+  display: none;
+}
+main .galeria .principal:hover{
+  box-shadow: none;
+}
 .donar{
   display: flex;
   justify-content: center;
@@ -318,14 +356,17 @@ main .obras h3{
   align-items: center;
   text-align: center;
 }
-main .obras div{
+main .obras .obras, main .obras .numeros{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 main .obras .divObra{
-  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
 }
 main section{
   background-color: #ffffffcc;
@@ -336,7 +377,7 @@ main .obras .obrasContenido{
   justify-content: center;
   align-items: center;
 }
-.obras img{
+.obras .portada, .obras .numeros img{
   width: 80%;
   align-self: center;
   max-width: 550px;
@@ -558,6 +599,18 @@ footer .logos{
   main .alone-donar div{
     margin: 0;
   }
+  main .alone .obras{
+    display: initial;
+  }
+  main .alone .obras .portada{
+    width: 20%;
+  }
+  main .galeria{
+    grid-template-columns: repeat(5, 1fr);
+  }
+  main .galeria .principal{
+    display: initial;
+  }
   section{
     width: 80%;
     max-width: 1000px;
@@ -721,16 +774,19 @@ footer .logos{
     gap: 20px;
   }
   main .obras .divObra{
+    display: flex;
     flex-direction: row;
     gap: 20px;
-  }
-  main .divObra img{
-    margin: 0;
   }
   main .obras .obrasContenido{
     align-items: start;
     gap: 10px;
     padding: 0px 20px;
+  }
+  .obras img{
+    width: 80%;
+    align-self: center;
+    max-width: 550px;
   }
   main .obras > :nth-child(2n) > .obrasContenido{
     order: 1;
