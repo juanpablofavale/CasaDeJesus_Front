@@ -14,31 +14,31 @@ const Home = () => {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <a className='aVideo' href="https://donaronline.org/fundacion-casa-de-jesus/10-aniversario-fundacion-casa-de-jesus?preview=true" target='_blank'>
-                <img src="/img/B_Slider02.png" className="d-block w-100" alt="Slider1" />
+                <img src="/img/B_Slider02.webp" className="d-block w-100" alt="Slider1" />
               </a>
             </div>
             {/*
             <div className="carousel-item">
               <a className='aVideo' href="#obras">
-                <img src="/img/B_Slider01.png" className="d-block w-100" alt="Slider2" />
+                <img src="/img/B_Slider01.webp" className="d-block w-100" alt="Slider2" />
               </a>
             </div>
             */}
             <div className="carousel-item">
               <a className='aVideo' href="https://donaronline.org/fundacion-casa-de-jesus/manifestemos-nuestra-fe-en-obras" target='_blank'>
-                <img src="/img/B_Slider03.png" className="d-block w-100" alt="Slider3" />
+                <img src="/img/B_Slider03.webp" className="d-block w-100" alt="Slider3" />
               </a>
             </div>
             {/*
             <div className="carousel-item">
               <a className='aVideo' href="https://eventols.com/e/fcj2024-1" target='_blank'>
-                <img src="/img/B_Slider04.png" className="d-block w-100" alt="Slider4" />
+                <img src="/img/B_Slider04.webp" className="d-block w-100" alt="Slider4" />
               </a>
             </div>
             */}
             <div className="carousel-item">
               <a className='aVideo' href="https://forms.gle/JKTcTqz5rsj7HHiB9" target='_blank'>
-                <img src="/img/B_Slider05.png" className="d-block w-100" alt="Slider5" />
+                <img src="/img/B_Slider05.webp" className="d-block w-100" alt="Slider5" />
               </a>
             </div>
           </div>
@@ -85,7 +85,7 @@ const Home = () => {
         <h2 id='obras'>Obras</h2>
         <div className='obras'>
           <div className='divObra'>
-            <img src="/img/francisco/portada.png" alt="Hogar San Francisco" />
+            <img src="/img/francisco/portada.webp" alt="Hogar San Francisco" />
             <div className='obrasContenido'>
               <h3>Hogar San Francisco</h3>
               <p>Inaugurado en mayo de 2015, es un hogar de tránsito para mujeres y niños, ubicado en Morón. Nace con el propósito de dar respuesta inmediata e integral a las mujeres que atraviesan una situación concreta de vulnerabilidad, ya sea material, económica, humana, espiritual o afectiva.</p>
@@ -93,7 +93,7 @@ const Home = () => {
             </div>
           </div>
           <div className='divObra'>
-            <img src="/img/buenviaje/portada.png" alt="Hogar de Ancianas Buen Viaje" />
+            <img src="/img/buenviaje/portada.webp" alt="Hogar de Ancianas Buen Viaje" />
             <div className='obrasContenido'>
               <h3>Hogar de Ancianas Nuestra Señora del Buen Viaje</h3>
               <p>Inaugurado en mayo de 2015, es un hogar de tránsito para mujeres y niños, ubicado en Morón. Nace con el propósito de dar respuesta inmediata e integral a las mujeres que atraviesan una situación concreta de vulnerabilidad, ya sea material, económica, humana, espiritual o afectiva.</p>
@@ -101,7 +101,7 @@ const Home = () => {
             </div>
           </div>
           <div className='divObra'>
-            <img src="/img/posadas/portada.png" alt="Casa Posadas" />
+            <img src="/img/posadas/portada.webp" alt="Casa Posadas" />
             <div className='obrasContenido'>
               <h3>Casa Posadas</h3>
               <p>Se trata de un espacio para el descanso, el esparcimiento y la contención de familiares y/o acompañantes de pacientes internados o bajo tratamiento prolongado en el Hospital Nacional Posadas, quienes residen en zonas alejadas y deben abandonar temporalmente su hogar y su familia.</p>
@@ -109,7 +109,7 @@ const Home = () => {
             </div>
           </div>
           <div className='divObra'>
-            <img src="/img/nazaret//portada.png" alt="Casa Nazaret" />
+            <img src="/img/nazaret//portada.webp" alt="Casa Nazaret" />
             <div className='obrasContenido'>
               <h3>Casa Nazaret</h3>
               <p>Esta casa, ubicada en Haedo, nace en el año 2019 como un espacio de contención y promoción de la vida familiar. Desde el año 2020, todas las noches se entrega la cena a más de 400 personas, de lunes a viernes. También se entregan bolsones con diferentes alimentos a 2.000 familias por mes.</p>
@@ -117,7 +117,7 @@ const Home = () => {
             </div>
           </div>
           <div className='divObra'>
-            <img src="/img/teresita/portada.png" alt="Hospice Santa Teresita" />
+            <img src="/img/teresita/portada.webp" alt="Hospice Santa Teresita" />
             <div className='obrasContenido'>
               <h3>Hospice Santa Teresita</h3>
               <p>En 2021 comenzamos a soñar con el proyecto de un Hospice; un hogar en el que pudieran alojarse personas que sufren una enfermedad avanzada, especialmente aquellas de mayor vulnerabilidad, en el momento final de la vida; a quienes se les brinde un cuidado integral, acompañamiento y contención, haciéndolas sentir como en su casa.</p>

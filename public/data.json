@@ -1,7 +1,7 @@
 {
     "obras":{
         "nazaret":{
-            "portada":"/img/nazaret/LOGO.png",
+            "portada":"/img/nazaret/LOGO.webp",
             "titulo":"Casa Nazaret",
             "parrafos":[
                 "Esta casa, ubicada en Haedo, nace en el año 2019 como un espacio de contención y promoción de la vida familiar. Desde el año 2020, todas las noches se entrega la cena a más de 400 personas, de lunes a viernes. También se entregan bolsones con diferentes alimentos a 2.000 familias por mes.",
@@ -10,20 +10,20 @@
                 "Casa Nazaret es un hogar en el verdadero sentido de esta palabra; donde miles de familias son recibidas con amor y compromiso, gracias a la entrega generosa de muchísimos voluntarios que colaboran durante toda la semana.",
                 "“La familia es un espacio privilegiado donde la vida crece, se desarrolla y se hace más plena y más feliz. Por eso, Casa Nazaret es un espacio de promoción de la vida familiar y su nombre radica justamente en lo significativo del lugar donde nació la Sagrada Familia”."
             ],
-            "numeros":"/img/nazaret/numeros.png",
+            "numeros":"/img/nazaret/numeros.webp",
             "imagenes":[
-                "/img/nazaret/g1.png",
-                "/img/nazaret/g2.png",
-                "/img/nazaret/g3.png",
-                "/img/nazaret/g4.png",
-                "/img/nazaret/g5.png",
-                "/img/nazaret/g6.png",
-                "/img/nazaret/g7.png",
-                "/img/nazaret/g8.png"
+                "/img/nazaret/g1.webp",
+                "/img/nazaret/g2.webp",
+                "/img/nazaret/g3.webp",
+                "/img/nazaret/g4.webp",
+                "/img/nazaret/g5.webp",
+                "/img/nazaret/g6.webp",
+                "/img/nazaret/g7.webp",
+                "/img/nazaret/g8.webp"
             ]
         },
         "posadas":{
-            "portada":"/img/posadas/LOGO.png",
+            "portada":"/img/posadas/LOGO.webp",
             "titulo":"Casa Posadas",
             "parrafos":[
                 "Se trata de un espacio para el descanso, el esparcimiento y la contención de familiares y/o acompañantes de pacientes internados o bajo tratamiento prolongado en el Hospital Nacional Posadas, quienes residen en zonas alejadas y deben abandonar temporalmente su hogar y su familia.",
@@ -34,22 +34,22 @@
                 "La función social es acompañar a las familias brindando contención, herramientas para su organización familiar, a través de entrevistas, encuentros y talleres, trabajando junto con otros servicios y equipos de salud del Hospital.",
                 "La casa ofrece un servicio personalizado, humanizado e integral impulsando la consolidación de un modelo de atención basado en el trato digno, que contemple y respete las características educativas, culturales, espirituales y sociales del paciente y su familia."
             ],
-            "numeros":"/img/posadas/numeros.png",
+            "numeros":"/img/posadas/numeros.webp",
             "imagenes":[
-                "/img/posadas/g1.png",
-                "/img/posadas/g2.png",
-                "/img/posadas/g3.png",
-                "/img/posadas/g4.png",
-                "/img/posadas/g5.png",
-                "/img/posadas/g6.png",
-                "/img/posadas/g7.png",
-                "/img/posadas/g8.png",
-                "/img/posadas/g9.png",
-                "/img/posadas/g10.png"
+                "/img/posadas/g1.webp",
+                "/img/posadas/g2.webp",
+                "/img/posadas/g3.webp",
+                "/img/posadas/g4.webp",
+                "/img/posadas/g5.webp",
+                "/img/posadas/g6.webp",
+                "/img/posadas/g7.webp",
+                "/img/posadas/g8.webp",
+                "/img/posadas/g9.webp",
+                "/img/posadas/g10.webp"
             ]
         },
         "francisco":{
-            "portada":"/img/francisco/LOGO.png",
+            "portada":"/img/francisco/LOGO.webp",
             "titulo":"Hogar San Francisco",
             "parrafos":[
                 "Inaugurado en mayo de 2015, es un hogar de tránsito para mujeres y niños, ubicado en Morón. Nace con el propósito de dar respuesta inmediata e integral a las mujeres que atraviesan una situación concreta de vulnerabilidad, ya sea material, económica, humana, espiritual o afectiva.",
@@ -57,20 +57,20 @@
                 "La casa nace por la necesidad de darle alojamiento a las personas que dormían en los pasillos del Hospital Posadas. La mayoría de ellos, de bajos recursos, familiares de pacientes que estaban siendo tratados por una dolencia.",
                 "A los huéspedes se les brinda alojamiento y comida, y se los acompaña desde el servicio social, en la resolución de la problemática que los trajo hasta la casa."
             ],
-            "numeros":"/img/francisco/numeros.png",
+            "numeros":"/img/francisco/numeros.webp",
             "imagenes":[
-                "/img/francisco/g1.png",
-                "/img/francisco/g2.png",
-                "/img/francisco/g3.png",
-                "/img/francisco/g4.png",
-                "/img/francisco/g5.png",
-                "/img/francisco/g6.png",
-                "/img/francisco/g7.png",
-                "/img/francisco/g8.png"
+                "/img/francisco/g1.webp",
+                "/img/francisco/g2.webp",
+                "/img/francisco/g3.webp",
+                "/img/francisco/g4.webp",
+                "/img/francisco/g5.webp",
+                "/img/francisco/g6.webp",
+                "/img/francisco/g7.webp",
+                "/img/francisco/g8.webp"
             ]
         },
         "buenviaje":{
-            "portada":"/img/buenviaje/LOGO.png",
+            "portada":"/img/buenviaje/LOGO.webp",
             "titulo":"Hogar de Ancianas Nuestra Señora del Buen Viaje",
             "parrafos":[
                 "El Hogar Nuestra Señora del Buen Viaje, ubicado en Ituzaingó, brinda un espacio cálido y seguro para mujeres mayores.",
@@ -80,7 +80,7 @@
             "imagenes":[]
         },
         "teresita":{
-            "portada":"/img/teresita/LOGO.png",
+            "portada":"/img/teresita/LOGO.webp",
             "titulo":"Hospice Santa Teresita",
             "parrafos":[
                 "Inaugurado el 1 de octubre de 2024 en la localidad de Ituzaingó, el Hospice Santa Teresita es un espacio que nació del sueño de brindar una atención compasiva y cercana a quienes atraviesan la etapa final de su vida, en especial a personas en situación de vulnerabilidad que enfrentan enfermedades avanzadas. Inspirados por el deseo de ofrecer un espacio que emule los sentimientos del corazón de Jesús, el Hospice busca acoger a los más necesitados, proporcionándoles cuidado integral, acompañamiento y contención, haciéndolos sentir en un verdadero hogar.",
@@ -90,11 +90,11 @@
             ],
             "numeros":"",
             "imagenes":[
-                "/img/teresita/g1.png",
-                "/img/teresita/g2.png",
-                "/img/teresita/g3.png",
-                "/img/teresita/g4.png",
-                "/img/teresita/g5.png"
+                "/img/teresita/g1.webp",
+                "/img/teresita/g2.webp",
+                "/img/teresita/g3.webp",
+                "/img/teresita/g4.webp",
+                "/img/teresita/g5.webp"
             ]
         }
     },
@@ -126,7 +126,7 @@
             ]
         },
         "historia":{
-            "portada":"/img/Historia.png"
+            "portada":"/img/Historia.webp"
         },
         "inspiracion":{
             "titulo":"Nuestra Inspiración",
@@ -146,57 +146,57 @@
             ],
             "miembros":[
                 {
-                    "imagen":"/consejo/AndreaBordaquievich.png",
+                    "imagen":"/consejo/AndreaBordaquievich.webp",
                     "nombre":"Andrea Bordaquievich",
                     "cargo":"Presidente"
                 },
                 {
-                    "imagen":"/consejo/EmanuelLaudonio.png",
+                    "imagen":"/consejo/EmanuelLaudonio.webp",
                     "nombre":"Emanuel Luis Laudonio",
                     "cargo":"Vicepresidente"
                 },
                 {
-                    "imagen":"/consejo/JuanBarbieri.png",
+                    "imagen":"/consejo/JuanBarbieri.webp",
                     "nombre":"Juan Alberto González Barbieri",
                     "cargo":"Director Ejecutivo"
                 },
                 {
-                    "imagen":"/consejo/MariaGonzalez.png",
+                    "imagen":"/consejo/MariaGonzalez.webp",
                     "nombre":"María Victoria González",
                     "cargo":"Secretaría"
                 },
                 {
-                    "imagen":"/consejo/AlejandroIturbide.png",
+                    "imagen":"/consejo/AlejandroIturbide.webp",
                     "nombre":"Alejandro Martin Iturbide",
                     "cargo":"Tesorero"
                 },
                 {
-                    "imagen":"/consejo/AlejandroClivio.png",
+                    "imagen":"/consejo/AlejandroClivio.webp",
                     "nombre":"Alejandro Mateo Clivio",
                     "cargo":"Vocal"
                 },
                 {
-                    "imagen":"/consejo/AdrianCampos.png",
+                    "imagen":"/consejo/AdrianCampos.webp",
                     "nombre":"Adrián Diego Campos",
                     "cargo":"Vocal"
                 },
                 {
-                    "imagen":"/consejo/Contacto.png",
+                    "imagen":"/consejo/Contacto.webp",
                     "nombre":"Juan Pablo Pisano",
                     "cargo":"Vocal"
                 },
                 {
-                    "imagen":"/consejo/MariaFernandez.png",
+                    "imagen":"/consejo/MariaFernandez.webp",
                     "nombre":"María Cecilia Fernández",
                     "cargo":"Vocal"
                 },
                 {
-                    "imagen":"/consejo/FernandoRomero.png",
+                    "imagen":"/consejo/FernandoRomero.webp",
                     "nombre":"Fernando Nicolás Romero",
                     "cargo":"Vocal"
                 },
                 {
-                    "imagen":"/consejo/MarianodelRio.png",
+                    "imagen":"/consejo/MarianodelRio.webp",
                     "nombre":"Pbro. Mariano Omar del Rio",
                     "cargo":"Asesor Espiritual"
                 }
