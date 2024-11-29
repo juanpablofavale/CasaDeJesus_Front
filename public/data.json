@@ -338,6 +338,13 @@
                 "El apoyo a tareas concretas de gestión, el desarrollo de proyectos y programas, y la participación en distintas campañas, favorecerá a un impacto directo sobre la sociedad de la cual forman parte.",
                 "Estas iniciativas incrementan el sentido de pertenencia, creando lazos más fuertes entre todos los que forman parte de la empresa, lo cual tiene una incidencia directa en la mejora del clima laboral.",
                 "Al mismo tiempo, incrementa el autoestima de cada uno de los que participan, generando un sentimiento de satisfacción por poder ayudar a los demás, y mejorando habilidades como el liderazgo, la capacidad para trabajo en equipo, la empatía, la tolerancia, la innovación, entre otras."
+            ],
+            "imagenes":[
+                "/img/voluntariado/g1.webp",
+                "/img/voluntariado/g2.webp",
+                "/img/voluntariado/g3.webp",
+                "/img/voluntariado/g4.webp",
+                "/img/voluntariado/g5.webp"
             ]
         },
         "voluntarios":{
@@ -366,6 +373,11 @@
             "titulo":"Festejos solidarios",
             "parrafos":[
                 "Si se acerca tu cumpleaños o aniversario y estás pensando en encontrar la manera de poder ayudar a otros, podes proponer a tus invitados que en lugar de comprarte un regalo realicen un aporte a la Fundación Casa de Jesús. Contamos con material para el armado de un stand en el lugar del evento, con banners, folletería y alcancías."
+            ],
+            "imagenes":[
+                "/img/festejos/g1.webp",
+                "/img/festejos/g2.webp",
+                "/img/festejos/g3.webp"
             ]
         }
     }

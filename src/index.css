@@ -607,9 +607,20 @@ footer .logos{
   }
   main .galeria{
     grid-template-columns: repeat(5, 1fr);
+    margin: 0;
   }
   main .galeria .principal{
     display: initial;
+  }
+  main .parte, main  .obras, main .fundacion{
+    padding: 20px 0;
+  }
+  main .parte{
+    padding-bottom: 40px;
+  }
+  main .obras .numeros{
+    margin: 0;
+    margin-bottom: 20px;
   }
   section{
     width: 80%;
