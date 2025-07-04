@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './Article.css'
+import NavLnk from '../../components/navlnk/NavLnk'
 import { server } from '../../../utils/axios.js'
 import { Link } from 'react-router-dom'
 
@@ -92,7 +93,15 @@ const Article = ({menu, sub}) => {
             return <img onClick={() => setImg(i)} key={i} src={i} alt={"imagen de " + sub} />
           })}
           </div> || <></>
-      }
+        }
+        {
+            //data && data[menu][sub].link && <p>ACA va el link {data[menu][sub].link}</p>
+            //data && data[menu][sub].vinculo && <NavLnk lnk={data[menu][sub].vinculo.link} name={data[menu][sub].vinculo.texto}/>
+            data && data[menu][sub].vinculo && 
+            <div className='boton'>
+              <a href={data[menu][sub].vinculo.link} target='_blank'>{data[menu][sub].vinculo.texto}</a>
+            </div>
+        }
     </section>
   )
 }

@@ -181,7 +181,7 @@
                     "cargo":"Vocal"
                 },
                 {
-                    "imagen":"/consejo/Contacto.webp",
+                    "imagen":"/consejo/JuanPabloPisano.webp",
                     "nombre":"Juan Pablo Pisano",
                     "cargo":"Vocal"
                 },
@@ -353,7 +353,11 @@
                 "Tu tiempo es muy valioso.",
                 "Cada una de nuestras Casas se convierte en un verdadero hogar para las familias que recibimos.",
                 "El Voluntariado es una parte fundamental para llevar a cabo nuestra Misión, brindando contención, acompañamiento, desarrollando talleres, actividades para niños, adolescentes y adultos, clasificando y ofreciendo donaciones, también apoyando la organización de nuestros eventos."
-            ]
+            ],
+            "vinculo":{
+                "texto":"Quiero ser voluntario",
+                "link":"https://forms.gle/dE7oUVwos6zfDcXi9"
+            }
         },
         "padrinos":{
             "titulo":"Programa PADRINOS/MADRINAS",
